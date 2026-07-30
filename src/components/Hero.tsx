@@ -77,8 +77,8 @@ export default function Hero() {
         <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.9, delay: 0.2, ease: [0.2, 0.8, 0.2, 1] }} className="lg:col-span-5 relative">
           <motion.div style={{ y: imgY }} className="relative aspect-[4/5] w-full rounded-3xl overflow-hidden shadow-[0_40px_80px_-40px_rgba(27,44,92,0.4)]">
             <Image
-              src="/community.jpg"
-              alt="DFW apartment community served by A&K Premier Property Solutions"
+              src="/hero-community.jpg"
+              alt="DFW luxury apartment community served by A&K Premier Property Solutions"
               fill
               sizes="(max-width: 1024px) 100vw, 40vw"
               priority

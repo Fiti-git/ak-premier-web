@@ -2,27 +2,30 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const KEYS = ['garden', 'midRise', 'highRise'] as const;
 
+const PHOTOS: Record<(typeof KEYS)[number], string> = {
+  garden: '/property-garden.jpg',
+  midRise: '/property-midrise.jpg',
+  highRise: '/property-highrise.jpg'
+};
+
 const ICONS: Record<(typeof KEYS)[number], React.ReactNode> = {
   garden: (
-    // Small houses in row
-    <svg viewBox="0 0 24 24" className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.6">
       <path d="M2 20V10l3-3 3 3M8 20V13l3-3 3 3v7M16 20V11l3-3 3 3v9M2 20h20" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   ),
   midRise: (
-    // Medium building
-    <svg viewBox="0 0 24 24" className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.6">
       <rect x="5" y="6" width="14" height="15" strokeLinejoin="round" />
       <path d="M8 10h2M14 10h2M8 14h2M14 14h2M8 18h2M14 18h2" strokeLinecap="round" />
-      <path d="M12 21v-3" strokeLinecap="round" />
     </svg>
   ),
   highRise: (
-    // Tall skyscraper
-    <svg viewBox="0 0 24 24" className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="1.5">
+    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.6">
       <rect x="6" y="3" width="12" height="18" strokeLinejoin="round" />
       <path d="M9 7h2M13 7h2M9 10h2M13 10h2M9 13h2M13 13h2M9 16h2M13 16h2M9 19h6" strokeLinecap="round" />
     </svg>
@@ -56,22 +59,28 @@ export default function PropertyTypes() {
               viewport={{ once: true, margin: '-60px' }}
               transition={{ duration: 0.6, delay: i * 0.1, ease: [0.2, 0.8, 0.2, 1] }}
               whileHover={{ y: -8 }}
-              className="card h-full group relative overflow-hidden"
+              className="card !p-0 h-full group relative overflow-hidden"
             >
-              <div
-                className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"
-                style={{
-                  background: 'radial-gradient(circle at top right, rgba(58,122,62,0.08), transparent 60%)'
-                }}
-              />
-              <div className="relative">
-                <div className="w-16 h-16 rounded-2xl bg-navy text-white flex items-center justify-center mb-5 shadow-lg group-hover:bg-forest transition-colors">
+              <div className="relative aspect-[4/3] overflow-hidden">
+                <Image
+                  src={PHOTOS[key]}
+                  alt={t(`items.${key}.title`)}
+                  fill
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                  className="object-cover transition-transform duration-700 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-navy/10 to-transparent" />
+                <div className="absolute top-3 left-3 w-10 h-10 rounded-xl bg-white/90 backdrop-blur text-navy flex items-center justify-center shadow-md">
                   {ICONS[key]}
                 </div>
-                <div className="font-display text-2xl text-navy font-semibold mb-2">
-                  {t(`items.${key}.title`)}
+                <div className="absolute bottom-3 left-4 right-4 text-white">
+                  <div className="font-display text-xl sm:text-2xl font-semibold drop-shadow-lg">
+                    {t(`items.${key}.title`)}
+                  </div>
                 </div>
-                <p className="text-navy/65 leading-relaxed">
+              </div>
+              <div className="p-5 sm:p-6">
+                <p className="text-navy/70 leading-relaxed">
                   {t(`items.${key}.desc`)}
                 </p>
               </div>
