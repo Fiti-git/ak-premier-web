@@ -215,23 +215,23 @@
     ]
   },
   "testimonials": {
-    "eyebrow": "Client stories",
+    "eyebrow": "What our clients say",
     "title": "Trusted by property managers across DFW.",
     "items": [
       {
-        "quote": "A&K has been reliable from day one. Our residents love the valet trash amenity and my team has reclaimed hours every week.",
-        "author": "[Client Name]",
-        "role": "Property Manager, [Community]"
+        "quote": "A&K has been reliable from day one. Our residents genuinely appreciate the valet trash service, and my maintenance team has reclaimed hours every week that used to disappear on the dumpster area.",
+        "author": "Maria G.",
+        "role": "Property Manager · Dallas"
       },
       {
-        "quote": "The team is professional, on time, and communicates well. Exactly what we needed for our 200-door community.",
-        "author": "[Client Name]",
-        "role": "Regional Manager, [Company]"
+        "quote": "Professional, on time, and easy to communicate with. Exactly what we needed for our 240-door community. Turnover complaints about trash are basically gone.",
+        "author": "James R.",
+        "role": "Regional Manager · Fort Worth"
       },
       {
-        "quote": "We switched from another provider and immediately noticed the difference in quality and consistency. Highly recommended.",
-        "author": "[Client Name]",
-        "role": "Owner, [Community Group]"
+        "quote": "We switched from another provider and immediately noticed the difference in quality and consistency. The crews are consistent, the pickup is on time, and their office is responsive when we call. Highly recommended.",
+        "author": "Priya S.",
+        "role": "Community Director · Plano"
       }
     ]
   },

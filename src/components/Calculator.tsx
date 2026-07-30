@@ -26,10 +26,10 @@ function Slider({
 }) {
   const pct = ((value - min) / (max - min)) * 100;
   return (
-    <div>
-      <div className="flex items-center justify-between mb-2">
-        <label className="text-sm font-medium text-navy/80">{label}</label>
-        <div className="font-display text-2xl text-navy font-semibold tabular-nums">
+    <div className="calc-slider">
+      <div className="flex items-center justify-between mb-3 gap-4">
+        <label className="text-sm font-medium text-white/90">{label}</label>
+        <div className="font-display text-2xl sm:text-3xl text-white font-semibold tabular-nums whitespace-nowrap">
           {prefix}{value.toLocaleString()}{suffix}
         </div>
       </div>
@@ -40,12 +40,12 @@ function Slider({
         step={step}
         value={value}
         onChange={(e) => onChange(Number(e.target.value))}
-        className="w-full h-2 rounded-full appearance-none cursor-pointer bg-navy/10"
+        className="calc-range w-full h-2 rounded-full appearance-none cursor-pointer"
         style={{
-          background: `linear-gradient(to right, #3A7A3E 0%, #3A7A3E ${pct}%, rgba(27,44,92,0.1) ${pct}%, rgba(27,44,92,0.1) 100%)`
+          background: `linear-gradient(to right, #3A7A3E 0%, #3A7A3E ${pct}%, rgba(255,255,255,0.15) ${pct}%, rgba(255,255,255,0.15) 100%)`
         }}
       />
-      <div className="flex justify-between text-[10px] text-navy/40 mt-1">
+      <div className="flex justify-between text-[11px] text-white/50 mt-2">
         <span>{prefix}{min}{suffix}</span>
         <span>{prefix}{max.toLocaleString()}{suffix}</span>
       </div>
@@ -89,8 +89,11 @@ export default function Calculator() {
 
         <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, margin: '-80px' }} transition={{ duration: 0.7, ease: [0.2, 0.8, 0.2, 1] }} className="grid lg:grid-cols-5 gap-6 lg:gap-8">
           {/* Inputs */}
-          <div className="lg:col-span-3 bg-white/[0.04] backdrop-blur rounded-3xl p-6 sm:p-8 border border-white/10 space-y-8">
-            <div className="text-white/60 text-xs uppercase tracking-[0.16em] font-semibold">Inputs</div>
+          <div className="lg:col-span-3 bg-white/[0.08] backdrop-blur rounded-3xl p-6 sm:p-8 border border-white/20 space-y-8 shadow-xl">
+            <div className="text-white text-xs uppercase tracking-[0.16em] font-semibold flex items-center gap-3">
+              <span className="w-8 h-px bg-forest" />
+              Adjust the sliders
+            </div>
             <Slider label={t('labels.doors')} value={doors} onChange={setDoors} min={20} max={2000} step={10} />
             <Slider label={t('labels.fee')} value={fee} onChange={setFee} min={5} max={50} step={1} prefix="$" />
             <Slider label={t('labels.cost')} value={cost} onChange={setCost} min={3} max={20} step={1} prefix="$" />

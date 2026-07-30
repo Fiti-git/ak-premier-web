@@ -59,12 +59,14 @@ export default function Testimonials() {
               </blockquote>
               <figcaption className="mt-6 pt-5 border-t border-black/5 flex items-center gap-3">
                 <div
-                  className="w-10 h-10 rounded-full shrink-0"
+                  className="w-11 h-11 rounded-full shrink-0 flex items-center justify-center text-white font-display font-semibold text-sm"
                   style={{
                     background: `linear-gradient(135deg, ${i % 2 === 0 ? '#3A7A3E' : '#1B2C5C'}, ${i % 2 === 0 ? '#1B2C5C' : '#3A7A3E'})`
                   }}
                   aria-hidden
-                />
+                >
+                  {it.author.split(' ').map((n) => n[0]).join('').slice(0, 2)}
+                </div>
                 <div>
                   <div className="font-semibold text-navy text-sm">{it.author}</div>
                   <div className="text-xs text-navy/60">{it.role}</div>

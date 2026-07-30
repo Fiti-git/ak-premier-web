@@ -298,6 +298,47 @@ a:focus-visible {
   opacity: 1;
 }
 
+/* Calculator range slider — cross-browser thumb styling */
+.calc-range {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+}
+.calc-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+          appearance: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid var(--forest);
+  cursor: grab;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35), 0 0 0 4px rgba(58,122,62,0.15);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.calc-range::-webkit-slider-thumb:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.45), 0 0 0 6px rgba(58,122,62,0.25);
+}
+.calc-range::-webkit-slider-thumb:active {
+  cursor: grabbing;
+  transform: scale(0.95);
+}
+.calc-range::-moz-range-thumb {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: #fff;
+  border: 3px solid var(--forest);
+  cursor: grab;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35), 0 0 0 4px rgba(58,122,62,0.15);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.calc-range:focus-visible::-webkit-slider-thumb {
+  box-shadow: 0 0 0 4px rgba(58,122,62,0.5);
+}
+
 /* Shimmer text (used sparingly for hero highlights) */
 .shimmer {
   background: linear-gradient(110deg, var(--navy) 45%, var(--forest) 55%, var(--navy) 65%);

@@ -4,8 +4,9 @@ import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { useRef, useState, useCallback } from 'react';
 
-const BEFORE_IMG = 'https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=1400&q=80';
-const AFTER_IMG = 'https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80';
+// Dirty stained concrete → freshly pressure-washed clean concrete
+const BEFORE_IMG = 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1400&q=80';
+const AFTER_IMG = 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80';
 
 export default function BeforeAfter() {
   const t = useTranslations('beforeAfter');

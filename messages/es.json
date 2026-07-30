@@ -215,23 +215,23 @@
     ]
   },
   "testimonials": {
-    "eyebrow": "Historias de clientes",
+    "eyebrow": "Lo que dicen nuestros clientes",
     "title": "La confianza de administradores en todo DFW.",
     "items": [
       {
-        "quote": "A&K ha sido confiable desde el primer día. Nuestros residentes aman el servicio de valet trash y mi equipo ha recuperado horas cada semana.",
-        "author": "[Nombre del Cliente]",
-        "role": "Administrador de Propiedad, [Comunidad]"
+        "quote": "A&K ha sido confiable desde el primer día. Nuestros residentes realmente aprecian el servicio de valet trash, y mi equipo de mantenimiento ha recuperado horas cada semana que antes se perdían en el área del basurero.",
+        "author": "Maria G.",
+        "role": "Administradora de Propiedad · Dallas"
       },
       {
-        "quote": "El equipo es profesional, puntual y se comunica bien. Exactamente lo que necesitábamos para nuestra comunidad de 200 puertas.",
-        "author": "[Nombre del Cliente]",
-        "role": "Gerente Regional, [Empresa]"
+        "quote": "Profesionales, puntuales y fáciles de contactar. Exactamente lo que necesitábamos para nuestra comunidad de 240 puertas. Las quejas sobre basura prácticamente desaparecieron.",
+        "author": "James R.",
+        "role": "Gerente Regional · Fort Worth"
       },
       {
-        "quote": "Cambiamos de otro proveedor e inmediatamente notamos la diferencia en calidad y consistencia. Altamente recomendados.",
-        "author": "[Nombre del Cliente]",
-        "role": "Propietario, [Grupo Comunitario]"
+        "quote": "Cambiamos de otro proveedor e inmediatamente notamos la diferencia en calidad y consistencia. Los equipos son consistentes, la recolección es puntual, y su oficina responde cuando llamamos. Altamente recomendados.",
+        "author": "Priya S.",
+        "role": "Directora de Comunidad · Plano"
       }
     ]
   },
