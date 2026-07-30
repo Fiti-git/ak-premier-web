@@ -1,0 +1,368 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Cormorant Garamond', 'Playfair Display', ui-serif, Georgia, serif;
+  --navy: #1B2C5C;
+  --forest: #3A7A3E;
+  --cream: #FAFAF7;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--cream);
+  color: #141414;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Subtle grain texture overlay for depth */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Focus ring for accessibility */
+:focus-visible {
+  outline: 2px solid var(--forest);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+button:focus-visible,
+a:focus-visible {
+  outline-offset: 4px;
+}
+
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background: var(--navy);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  z-index: 100;
+  transition: top 200ms ease;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(27, 44, 92, 0.2);
+  border-radius: 10px;
+  border: 2px solid var(--cream);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(27, 44, 92, 0.4);
+}
+
+/* Selection */
+::selection {
+  background: var(--forest);
+  color: #fff;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+.container-x {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .container-x {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-x {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Hero gradient with animated aurora */
+.hero-gradient {
+  position: relative;
+  background:
+    radial-gradient(1000px 500px at 15% 10%, rgba(58,122,62,0.12), transparent 60%),
+    radial-gradient(900px 500px at 90% 20%, rgba(27,44,92,0.14), transparent 60%),
+    linear-gradient(180deg, #FAFAF7 0%, #F3F5F0 100%);
+  overflow: hidden;
+}
+
+.hero-gradient::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(600px 300px at 60% 80%, rgba(58,122,62,0.08), transparent 70%);
+  animation: aurora 18s ease-in-out infinite alternate;
+}
+
+@keyframes aurora {
+  0%   { transform: translate(0, 0) scale(1); opacity: 0.6; }
+  50%  { transform: translate(-40px, 20px) scale(1.15); opacity: 1; }
+  100% { transform: translate(30px, -20px) scale(1.05); opacity: 0.7; }
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.35;
+  pointer-events: none;
+  animation: float 14s ease-in-out infinite alternate;
+}
+
+@keyframes float {
+  0%   { transform: translate(0, 0) scale(1); }
+  50%  { transform: translate(30px, -40px) scale(1.1); }
+  100% { transform: translate(-20px, 30px) scale(0.95); }
+}
+
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  padding: 0.875rem 1.5rem;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: transform 200ms ease, box-shadow 200ms ease, background-color 200ms ease, color 200ms ease;
+  white-space: nowrap;
+  overflow: hidden;
+  min-height: 44px; /* accessibility: min touch target */
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255,255,255,0.25), transparent 60%);
+  opacity: 0;
+  transition: opacity 300ms ease;
+}
+.btn:hover::before {
+  opacity: 1;
+}
+
+.btn-primary {
+  background: var(--navy);
+  color: #fff;
+}
+.btn-primary:hover {
+  background: #243A78;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -14px rgba(27,44,92,0.7);
+}
+.btn-primary:active {
+  transform: translateY(0);
+}
+
+.btn-accent {
+  background: var(--forest);
+  color: #fff;
+}
+.btn-accent:hover {
+  background: #2E6231;
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -14px rgba(58,122,62,0.65);
+}
+.btn-accent:active {
+  transform: translateY(0);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--navy);
+  border: 1px solid rgba(27,44,92,0.2);
+}
+.btn-ghost:hover {
+  background: rgba(27,44,92,0.06);
+  border-color: rgba(27,44,92,0.35);
+  transform: translateY(-1px);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--forest);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.eyebrow::before {
+  content: '';
+  width: 24px;
+  height: 1px;
+  background: currentColor;
+}
+
+.section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+@media (min-width: 640px) {
+  .section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+.card {
+  position: relative;
+  background: #fff;
+  border: 1px solid rgba(20,20,20,0.06);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  transition: transform 350ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 350ms ease, border-color 250ms ease;
+  overflow: hidden;
+}
+
+@media (min-width: 640px) {
+  .card {
+    padding: 1.75rem;
+  }
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: linear-gradient(140deg, transparent 40%, rgba(58,122,62,0.3), transparent 60%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 400ms ease;
+  pointer-events: none;
+}
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 60px -30px rgba(27,44,92,0.35);
+  border-color: rgba(58,122,62,0.25);
+}
+.card:hover::before {
+  opacity: 1;
+}
+
+/* Shimmer text (used sparingly for hero highlights) */
+.shimmer {
+  background: linear-gradient(110deg, var(--navy) 45%, var(--forest) 55%, var(--navy) 65%);
+  background-size: 250% 100%;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  animation: shimmer 6s linear infinite;
+}
+@keyframes shimmer {
+  0%   { background-position: 100% 0; }
+  100% { background-position: -100% 0; }
+}
+
+/* Marquee-style ticker for logos or trust bar (optional future use) */
+.marquee {
+  display: flex;
+  overflow: hidden;
+  mask-image: linear-gradient(90deg, transparent, #000 10%, #000 90%, transparent);
+}
+.marquee > * {
+  animation: scroll 30s linear infinite;
+  display: flex;
+  flex-shrink: 0;
+  gap: 3rem;
+  padding-right: 3rem;
+}
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-100%); }
+}
+
+/* Scroll progress bar */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--forest), var(--navy));
+  z-index: 100;
+  transform-origin: 0 50%;
+  transition: transform 100ms ease;
+}
+
+/* Reveal utility */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 700ms cubic-bezier(0.2, 0.8, 0.2, 1), transform 700ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.reveal-up.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Prefers-reduced-motion: kill all decorative motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .hero-gradient::after,
+  .blob {
+    animation: none !important;
+  }
+}

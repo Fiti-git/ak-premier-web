@@ -1,0 +1,290 @@
+{
+  "brand": {
+    "name": "A&K Premier Property Solutions",
+    "short": "A&K Premier",
+    "tagline": "Profesional • Confiable • De Confianza"
+  },
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "about": "Nosotros",
+    "areas": "Áreas de Servicio",
+    "contact": "Contacto",
+    "quote": "Solicitar Cotización"
+  },
+  "hero": {
+    "eyebrow": "Soluciones Integrales para tu Propiedad",
+    "title": "Cuidado premier para las propiedades de las que te enorgulleces.",
+    "subtitle": "Desde espacios comerciales impecables hasta terrenos meticulosamente mantenidos, A&K brinda servicios confiables que protegen tu inversión e impresionan a tus inquilinos.",
+    "ctaPrimary": "Cotización Gratuita",
+    "ctaSecondary": "Ver Servicios"
+  },
+  "stats": {
+    "eyebrow": "En cifras",
+    "title": "Suficientemente pequeños para preocuparnos, suficientemente grandes para cumplir.",
+    "items": {
+      "years": { "value": 15, "suffix": "+", "label": "Años de experiencia combinada" },
+      "properties": { "value": 100, "suffix": "+", "label": "Propiedades atendidas" },
+      "response": { "value": 24, "suffix": "hr", "label": "Tiempo promedio de respuesta" },
+      "satisfaction": { "value": 98, "suffix": "%", "label": "Satisfacción del cliente" }
+    }
+  },
+  "trust": {
+    "eyebrow": "A quiénes atendemos",
+    "items": [
+      "Edificios de Oficinas",
+      "Instalaciones Médicas",
+      "Locales Comerciales",
+      "Sitios Industriales",
+      "Comunidades HOA",
+      "Administradores de Propiedad",
+      "Instalaciones Educativas",
+      "Restaurantes"
+    ]
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Un proceso simple y transparente.",
+    "subtitle": "Sin sorpresas. Solo pasos claros desde la primera llamada hasta una propiedad impecable.",
+    "steps": [
+      { "title": "Contáctanos", "desc": "Cuéntanos sobre tu propiedad y qué necesitas. Escuchamos primero." },
+      { "title": "Recorrido gratuito", "desc": "Visitamos tu sitio, entendemos tus necesidades e identificamos lo más importante." },
+      { "title": "Cotización a la medida", "desc": "Recibes una cotización clara y detallada — sin cargos ocultos, sin sorpresas." },
+      { "title": "Nos presentamos", "desc": "Equipos uniformados, horario consistente, calidad que puedes señalar." }
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "Ve la diferencia",
+    "title": "El estándar A&K, en un solo deslizamiento.",
+    "subtitle": "Desliza para comparar — así se ve un trabajo bien hecho.",
+    "before": "Antes",
+    "after": "Después"
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Todo lo que te podrías estar preguntando.",
+    "items": [
+      {
+        "q": "¿Tienen licencia y seguro?",
+        "a": "Sí — A&K Premier Property Solutions cuenta con licencia, fianza y seguro completos. Con gusto proporcionamos certificados de seguro a cualquier cliente que lo solicite."
+      },
+      {
+        "q": "¿Ofrecen cotizaciones gratuitas?",
+        "a": "Por supuesto. Cada cotización comienza con un recorrido gratuito y sin compromiso de tu propiedad para armar un plan que realmente funcione."
+      },
+      {
+        "q": "¿En qué áreas trabajan?",
+        "a": "Atendemos propiedades en toda la región. Si no estás seguro si cubrimos tu área, solo llama — siempre estamos expandiéndonos."
+      },
+      {
+        "q": "¿Qué tan rápido pueden empezar?",
+        "a": "Para la mayoría de servicios, podemos comenzar dentro de una semana de firmar. Emergencias y limpiezas únicas a menudo se pueden agendar en 24-48 horas."
+      },
+      {
+        "q": "¿Ofrecen servicio bilingüe?",
+        "a": "Sí — nuestro equipo se comunica cómodamente en inglés y español, tanto en la oficina como en el sitio."
+      },
+      {
+        "q": "¿Qué pasa si no estoy satisfecho con una visita?",
+        "a": "Respaldamos cada trabajo. Si algo no está bien, avísanos dentro de 24 horas y volveremos a arreglarlo — sin costo."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Cuidado completo, bajo un mismo techo.",
+    "subtitle": "Un socio de confianza para cada parte de tu propiedad — dentro y fuera.",
+    "items": {
+      "janitorial": {
+        "title": "Limpieza Comercial",
+        "desc": "Servicios de limpieza diarios, semanales y fuera de horario para oficinas, retail y espacios médicos."
+      },
+      "grounds": {
+        "title": "Jardinería y Terrenos",
+        "desc": "Cuidado del césped, limpieza estacional y mantenimiento estético durante todo el año."
+      },
+      "maintenance": {
+        "title": "Mantenimiento",
+        "desc": "Servicios de handyman, reparaciones menores y mantenimiento preventivo a tu horario."
+      },
+      "specialty": {
+        "title": "Servicios Especializados",
+        "desc": "Limpieza post-construcción, limpiezas profundas, hidrolavado y entregas de mudanza."
+      }
+    },
+    "learnMore": "Más información"
+  },
+  "why": {
+    "eyebrow": "Por qué A&K",
+    "title": "Un socio en el que realmente puedes confiar.",
+    "items": {
+      "vetted": {
+        "title": "Equipo capacitado y uniformado",
+        "desc": "Personal con verificación de antecedentes, equipos consistentes y supervisión en cada trabajo."
+      },
+      "insured": {
+        "title": "Licencia y seguro",
+        "desc": "Cobertura de responsabilidad completa para proteger tu propiedad y a las personas."
+      },
+      "response": {
+        "title": "Respuesta rápida",
+        "desc": "Personas reales contestan tus llamadas — la mayoría de solicitudes se atienden en 24 horas."
+      },
+      "custom": {
+        "title": "A la medida de tu propiedad",
+        "desc": "Alcances y horarios flexibles diseñados según cómo funciona realmente tu edificio."
+      }
+    }
+  },
+  "areas": {
+    "eyebrow": "Dónde trabajamos",
+    "title": "Atendiendo propietarios en toda la región.",
+    "subtitle": "¿No ves tu área? Contáctanos — siempre estamos expandiéndonos.",
+    "list": ["[Ciudad 1]", "[Ciudad 2]", "[Ciudad 3]", "[Ciudad 4]", "[Ciudad 5]", "[Ciudad 6]"]
+  },
+  "testimonials": {
+    "eyebrow": "Historias de clientes",
+    "title": "La confianza de propietarios y administradores.",
+    "items": [
+      {
+        "quote": "A&K transformó cómo se ve y se siente nuestro edificio. Su equipo es puntual, minucioso y fácil de tratar.",
+        "author": "[Nombre del Cliente]",
+        "role": "Administrador de Propiedad, [Empresa]"
+      },
+      {
+        "quote": "La empresa de servicios más confiable con la que hemos trabajado en diez años. Simplemente hacen que las cosas se hagan.",
+        "author": "[Nombre del Cliente]",
+        "role": "Propietario, [Empresa]"
+      },
+      {
+        "quote": "La comunicación es excelente y la calidad es consistente en cada visita. Altamente recomendados.",
+        "author": "[Nombre del Cliente]",
+        "role": "Director de Instalaciones, [Empresa]"
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para el cuidado de propiedad hecho bien?",
+    "subtitle": "Cuéntanos sobre tu propiedad y armaremos un plan a tu medida.",
+    "button": "Solicita tu Cotización Gratuita"
+  },
+  "footer": {
+    "about": "A&K Premier Property Solutions LLC brinda servicios profesionales, confiables y de confianza para clientes comerciales y residenciales.",
+    "quickLinks": "Enlaces Rápidos",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "phone": "Teléfono",
+    "email": "Correo",
+    "address": "Dirección",
+    "phoneValue": "[POR DEFINIR]",
+    "emailValue": "[POR DEFINIR]",
+    "addressValue": "[POR DEFINIR]",
+    "rights": "Todos los derechos reservados."
+  },
+  "services_page": {
+    "hero": {
+      "eyebrow": "Nuestros Servicios",
+      "title": "Todo lo que tu propiedad necesita.",
+      "subtitle": "Elige los servicios que le convengan a tu edificio — o combínalos para una relación simple."
+    }
+  },
+  "about_page": {
+    "hero": {
+      "eyebrow": "Sobre A&K",
+      "title": "Cuidado de propiedad basado en la confianza — un cliente a la vez.",
+      "subtitle": "A&K Premier Property Solutions fue fundada con una idea simple: los propietarios merecen un socio de servicio que se presente, haga bien el trabajo, y trate cada edificio como si fuera propio."
+    },
+    "story": {
+      "eyebrow": "Nuestra Historia",
+      "title": "De dónde venimos.",
+      "body": "[Historia del fundador — por definir con el cliente. Aquí contaremos cómo se fundó A&K, la trayectoria de los fundadores en servicios de propiedad, qué problema decidieron resolver, y por qué construyeron la empresa alrededor de los valores de ser Profesional, Confiable y De Confianza.]"
+    },
+    "values": {
+      "eyebrow": "Lo que defendemos",
+      "title": "Tres palabras que vivimos.",
+      "items": {
+        "professional": {
+          "title": "Profesional",
+          "desc": "Equipos uniformados, comunicación clara y un estándar de trabajo del que puedes sentirte orgulloso."
+        },
+        "reliable": {
+          "title": "Confiable",
+          "desc": "Nos presentamos cuando decimos que lo haremos. Calidad consistente, personas consistentes, en cada visita."
+        },
+        "trusted": {
+          "title": "De Confianza",
+          "desc": "Con licencia, seguro y verificación de antecedentes. Los propietarios nos entregan las llaves porque nos las hemos ganado."
+        }
+      }
+    }
+  },
+  "areas_page": {
+    "hero": {
+      "eyebrow": "Áreas de Servicio",
+      "title": "Atendiendo propietarios en toda la región.",
+      "subtitle": "Trabajamos con clientes comerciales y residenciales en las áreas listadas abajo. ¿No estás seguro si cubrimos la tuya? Solo pregunta."
+    },
+    "primary": "Áreas de Servicio Principales",
+    "expanding": "También atendemos comunidades cercanas",
+    "ctaTitle": "¿No ves tu ciudad?",
+    "ctaBody": "Siempre estamos expandiéndonos. Contáctanos y te diremos si podemos atender tu propiedad."
+  },
+  "contact_page": {
+    "hero": {
+      "eyebrow": "Contacto",
+      "title": "Hablemos sobre tu propiedad.",
+      "subtitle": "Llama, envía un correo, o mándanos un mensaje — una persona real te responderá dentro de un día hábil."
+    },
+    "hoursTitle": "Horario de Atención",
+    "hoursValue": "Lunes – Viernes, 8:00 AM – 6:00 PM",
+    "emergencyTitle": "Servicio de Emergencia",
+    "emergencyValue": "Disponible 24/7 para clientes existentes"
+  },
+  "quote_page": {
+    "hero": {
+      "eyebrow": "Solicitar Cotización",
+      "title": "Cuéntanos sobre tu propiedad.",
+      "subtitle": "Completa el formulario y te responderemos dentro de un día hábil con una cotización a la medida — sin compromiso."
+    },
+    "form": {
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "company": "Empresa / Nombre de Propiedad",
+      "service": "Servicio Necesitado",
+      "servicePlaceholder": "Selecciona un servicio",
+      "serviceOptions": {
+        "cleaning": "Limpieza Comercial",
+        "grounds": "Jardinería y Terrenos",
+        "maintenance": "Mantenimiento",
+        "specialty": "Servicios Especializados",
+        "other": "Otro / Múltiples"
+      },
+      "propertyType": "Tipo de Propiedad",
+      "propertyOptions": {
+        "office": "Edificio de Oficinas",
+        "retail": "Local Comercial",
+        "medical": "Instalación Médica",
+        "residential": "Residencial",
+        "industrial": "Industrial / Bodega",
+        "other": "Otro"
+      },
+      "size": "Tamaño Aproximado (pies cuadrados)",
+      "frequency": "Frecuencia del Servicio",
+      "frequencyOptions": {
+        "daily": "Diaria",
+        "weekly": "Semanal",
+        "biweekly": "Quincenal",
+        "monthly": "Mensual",
+        "onetime": "Una sola vez",
+        "unsure": "Aún no lo sé"
+      },
+      "message": "Detalles Adicionales",
+      "messagePlaceholder": "Cuéntanos cualquier cosa que nos ayude a preparar tu cotización…",
+      "submit": "Enviar Solicitud",
+      "submitting": "Enviando…",
+      "success": "¡Gracias! Hemos recibido tu solicitud y te contactaremos dentro de un día hábil.",
+      "error": "Algo salió mal. Por favor intenta de nuevo o llámanos directamente."
+    }
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "brand": {
+    "name": "A&K Premier Property Solutions",
+    "short": "A&K Premier",
+    "tagline": "Professional • Reliable • Trusted"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "areas": "Service Areas",
+    "contact": "Contact",
+    "quote": "Request a Quote"
+  },
+  "hero": {
+    "eyebrow": "Full-Service Property Solutions",
+    "title": "Premier care for the properties you take pride in.",
+    "subtitle": "From spotless commercial spaces to meticulously kept grounds, A&K delivers dependable property services that protect your investment and impress your tenants.",
+    "ctaPrimary": "Request a Free Quote",
+    "ctaSecondary": "Explore Services"
+  },
+  "stats": {
+    "eyebrow": "By the numbers",
+    "title": "Small enough to care, big enough to deliver.",
+    "items": {
+      "years": { "value": 15, "suffix": "+", "label": "Years of combined experience" },
+      "properties": { "value": 100, "suffix": "+", "label": "Properties served" },
+      "response": { "value": 24, "suffix": "hr", "label": "Average response time" },
+      "satisfaction": { "value": 98, "suffix": "%", "label": "Client satisfaction" }
+    }
+  },
+  "trust": {
+    "eyebrow": "Who we serve",
+    "items": [
+      "Office Buildings",
+      "Medical Facilities",
+      "Retail Spaces",
+      "Industrial Sites",
+      "HOA Communities",
+      "Property Managers",
+      "Educational Facilities",
+      "Restaurants"
+    ]
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "A simple, transparent process.",
+    "subtitle": "No surprises. Just clear steps from first call to a spotless property.",
+    "steps": [
+      { "title": "Get in touch", "desc": "Tell us about your property and what you need. We listen first." },
+      { "title": "Free walkthrough", "desc": "We visit your site, understand your needs, and identify what matters most." },
+      { "title": "Custom quote", "desc": "You get a clear, itemized quote — no hidden fees, no surprises." },
+      { "title": "We show up", "desc": "Uniformed crews, consistent schedule, quality you can point to." }
+    ]
+  },
+  "beforeAfter": {
+    "eyebrow": "See the difference",
+    "title": "The A&K standard, in one drag.",
+    "subtitle": "Slide to compare — this is what \"done right\" looks like.",
+    "before": "Before",
+    "after": "After"
+  },
+  "faq": {
+    "eyebrow": "Common questions",
+    "title": "Everything you might be wondering.",
+    "items": [
+      {
+        "q": "Are you licensed and insured?",
+        "a": "Yes — A&K Premier Property Solutions is fully licensed, bonded, and insured. We're happy to provide certificates of insurance to any client on request."
+      },
+      {
+        "q": "Do you offer free estimates?",
+        "a": "Absolutely. Every quote starts with a free, no-obligation walkthrough of your property so we can build a plan that actually fits."
+      },
+      {
+        "q": "What areas do you serve?",
+        "a": "We serve properties throughout the region. If you're not sure whether we cover your area, just call — we're always expanding."
+      },
+      {
+        "q": "How quickly can you start?",
+        "a": "For most services, we can begin within one week of signing. Emergency and one-time cleans can often be scheduled within 24-48 hours."
+      },
+      {
+        "q": "Do you offer bilingual service?",
+        "a": "Yes — our team communicates comfortably in both English and Spanish, in the office and on-site."
+      },
+      {
+        "q": "What if I'm not satisfied with a visit?",
+        "a": "We stand behind every job. If something isn't right, tell us within 24 hours and we'll come back and make it right — no charge."
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Complete property care, under one roof.",
+    "subtitle": "One trusted partner for every part of your property — inside and out.",
+    "items": {
+      "janitorial": {
+        "title": "Commercial Cleaning",
+        "desc": "Daily, weekly, and after-hours janitorial for offices, retail, and medical spaces."
+      },
+      "grounds": {
+        "title": "Landscaping & Grounds",
+        "desc": "Lawn care, seasonal cleanup, and curb-appeal maintenance year-round."
+      },
+      "maintenance": {
+        "title": "Property Maintenance",
+        "desc": "Handyman services, minor repairs, and preventative upkeep on your schedule."
+      },
+      "specialty": {
+        "title": "Specialty Services",
+        "desc": "Post-construction cleanup, deep cleans, pressure washing, and move-out turnovers."
+      }
+    },
+    "learnMore": "Learn more"
+  },
+  "why": {
+    "eyebrow": "Why A&K",
+    "title": "A property partner you can actually count on.",
+    "items": {
+      "vetted": {
+        "title": "Vetted, uniformed team",
+        "desc": "Background-checked staff, consistent crews, and supervision on every job."
+      },
+      "insured": {
+        "title": "Licensed & insured",
+        "desc": "Full liability coverage so your property and people are protected."
+      },
+      "response": {
+        "title": "Fast response",
+        "desc": "Real people answer your calls — most requests handled within 24 hours."
+      },
+      "custom": {
+        "title": "Tailored to your property",
+        "desc": "Flexible scopes and schedules built around how your building actually runs."
+      }
+    }
+  },
+  "areas": {
+    "eyebrow": "Where we work",
+    "title": "Serving property owners across the region.",
+    "subtitle": "Don't see your area? Reach out — we're always expanding.",
+    "list": ["[City 1]", "[City 2]", "[City 3]", "[City 4]", "[City 5]", "[City 6]"]
+  },
+  "testimonials": {
+    "eyebrow": "Client stories",
+    "title": "Trusted by property owners and managers.",
+    "items": [
+      {
+        "quote": "A&K transformed how our building looks and feels. Their team is punctual, thorough, and easy to work with.",
+        "author": "[Client Name]",
+        "role": "Property Manager, [Company]"
+      },
+      {
+        "quote": "The most reliable service company we've worked with in ten years. They just get it done.",
+        "author": "[Client Name]",
+        "role": "Owner, [Company]"
+      },
+      {
+        "quote": "Communication is excellent and the quality is consistent every single visit. Highly recommended.",
+        "author": "[Client Name]",
+        "role": "Facilities Director, [Company]"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready for property care done right?",
+    "subtitle": "Tell us about your property and we'll put together a plan that fits.",
+    "button": "Request Your Free Quote"
+  },
+  "footer": {
+    "about": "A&K Premier Property Solutions LLC provides professional, reliable, and trusted property services for commercial and residential clients.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "phoneValue": "[TO BE PROVIDED]",
+    "emailValue": "[TO BE PROVIDED]",
+    "addressValue": "[TO BE PROVIDED]",
+    "rights": "All rights reserved."
+  },
+  "services_page": {
+    "hero": {
+      "eyebrow": "Our Services",
+      "title": "Everything your property needs.",
+      "subtitle": "Choose the services that fit your building — or bundle them for one simple relationship."
+    }
+  },
+  "about_page": {
+    "hero": {
+      "eyebrow": "About A&K",
+      "title": "Property care built on trust — one client at a time.",
+      "subtitle": "A&K Premier Property Solutions was founded on a simple idea: property owners deserve a service partner who shows up, does the work right, and treats every building like their own."
+    },
+    "story": {
+      "eyebrow": "Our Story",
+      "title": "Where we come from.",
+      "body": "[Founder story placeholder — client to provide. This is where we'll tell the story of how A&K was founded, the founders' background in property services, what problem they set out to solve, and why they built the company around the values of being Professional, Reliable, and Trusted.]"
+    },
+    "values": {
+      "eyebrow": "What we stand for",
+      "title": "Three words we live by.",
+      "items": {
+        "professional": {
+          "title": "Professional",
+          "desc": "Uniformed crews, clear communication, and a standard of work you can point to and be proud of."
+        },
+        "reliable": {
+          "title": "Reliable",
+          "desc": "We show up when we say we will. Consistent quality, consistent people, every single visit."
+        },
+        "trusted": {
+          "title": "Trusted",
+          "desc": "Licensed, insured, and background-checked. Property owners hand us the keys because we've earned them."
+        }
+      }
+    }
+  },
+  "areas_page": {
+    "hero": {
+      "eyebrow": "Service Areas",
+      "title": "Serving property owners across the region.",
+      "subtitle": "We work with commercial and residential clients throughout the areas below. Not sure if we cover yours? Just ask."
+    },
+    "primary": "Primary Service Areas",
+    "expanding": "Also serving nearby communities",
+    "ctaTitle": "Don't see your city?",
+    "ctaBody": "We're always expanding. Reach out and we'll let you know if we can serve your property."
+  },
+  "contact_page": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Let's talk about your property.",
+      "subtitle": "Call, email, or send us a note — a real person will get back to you within one business day."
+    },
+    "hoursTitle": "Business Hours",
+    "hoursValue": "Monday – Friday, 8:00 AM – 6:00 PM",
+    "emergencyTitle": "Emergency Service",
+    "emergencyValue": "Available 24/7 for existing clients"
+  },
+  "quote_page": {
+    "hero": {
+      "eyebrow": "Request a Quote",
+      "title": "Tell us about your property.",
+      "subtitle": "Fill out the form below and we'll get back to you within one business day with a tailored quote — no obligation."
+    },
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company / Property Name",
+      "service": "Service Needed",
+      "servicePlaceholder": "Select a service",
+      "serviceOptions": {
+        "cleaning": "Commercial Cleaning",
+        "grounds": "Landscaping & Grounds",
+        "maintenance": "Property Maintenance",
+        "specialty": "Specialty Services",
+        "other": "Other / Multiple"
+      },
+      "propertyType": "Property Type",
+      "propertyOptions": {
+        "office": "Office Building",
+        "retail": "Retail Space",
+        "medical": "Medical Facility",
+        "residential": "Residential",
+        "industrial": "Industrial / Warehouse",
+        "other": "Other"
+      },
+      "size": "Approximate Size (sq ft)",
+      "frequency": "Service Frequency",
+      "frequencyOptions": {
+        "daily": "Daily",
+        "weekly": "Weekly",
+        "biweekly": "Bi-weekly",
+        "monthly": "Monthly",
+        "onetime": "One-time",
+        "unsure": "Not sure yet"
+      },
+      "message": "Additional Details",
+      "messagePlaceholder": "Tell us anything else that'll help us prepare your quote…",
+      "submit": "Send Request",
+      "submitting": "Sending…",
+      "success": "Thanks! We've received your request and will be in touch within one business day.",
+      "error": "Something went wrong. Please try again or call us directly."
+    }
+  }
+}
