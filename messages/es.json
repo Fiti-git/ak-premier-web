@@ -2,7 +2,12 @@
   "brand": {
     "name": "A&K Premier Property Solutions",
     "short": "A&K Premier",
-    "tagline": "Profesional • Confiable • De Confianza"
+    "tagline": "Soluciones Inteligentes. Comunidades Más Limpias.",
+    "phone": "(915) 238-0756",
+    "phoneRaw": "+19152380756",
+    "email": "info@akpremierpropertysolutions.com",
+    "website": "www.akpremierpropertysolutions.com",
+    "location": "DFW, Texas"
   },
   "nav": {
     "home": "Inicio",
@@ -10,47 +15,177 @@
     "about": "Nosotros",
     "areas": "Áreas de Servicio",
     "contact": "Contacto",
-    "quote": "Solicitar Cotización"
+    "quote": "Obtener Propuesta",
+    "call": "Llámanos"
   },
   "hero": {
-    "eyebrow": "Soluciones Integrales para tu Propiedad",
-    "title": "Cuidado premier para las propiedades de las que te enorgulleces.",
-    "subtitle": "Desde espacios comerciales impecables hasta terrenos meticulosamente mantenidos, A&K brinda servicios confiables que protegen tu inversión e impresionan a tus inquilinos.",
-    "ctaPrimary": "Cotización Gratuita",
-    "ctaSecondary": "Ver Servicios"
+    "eyebrow": "Servicios para Apartamentos y HOAs · DFW",
+    "title": "Soluciones Inteligentes. Comunidades Más Limpias.",
+    "subtitle": "A&K Premier Property Solutions LLC brinda servicios confiables, profesionales y de alta calidad que mantienen tu comunidad limpia, segura y en las mejores condiciones — para residentes que te enorgulleces de atender.",
+    "ctaPrimary": "Obtener Propuesta Gratis",
+    "ctaSecondary": "Llamar (915) 238-0756",
+    "trustDots": ["Con Seguro", "Puntuales Siempre", "Equipos Bilingües", "Basados en DFW"]
+  },
+  "values": {
+    "eyebrow": "Nuestra promesa",
+    "title": "Profesional. Confiable. De Confianza.",
+    "items": {
+      "professional": {
+        "title": "Profesional",
+        "desc": "Equipos capacitados, uniformados y confiables en cada trabajo."
+      },
+      "reliable": {
+        "title": "Confiable",
+        "desc": "Servicio consistente con el que puedes contar, noche tras noche."
+      },
+      "trusted": {
+        "title": "De Confianza",
+        "desc": "Comprometidos con tu comunidad — y con ganarnos tu renovación."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Nuestros servicios",
+    "title": "Todo lo que tu comunidad necesita, de un solo socio de confianza.",
+    "subtitle": "Cuatro servicios principales diseñados para comunidades de apartamentos, HOAs y administradores en todo el DFW.",
+    "items": {
+      "valetTrash": {
+        "title": "Valet Trash",
+        "short": "Recolección de basura en la puerta",
+        "desc": "Recolección de basura en la puerta para una comunidad más limpia y conveniente. Nos encargamos de la basura para que tus residentes no tengan que hacerlo."
+      },
+      "valetRecycling": {
+        "title": "Valet Reciclaje",
+        "short": "Recolección de reciclaje en la puerta",
+        "desc": "Recolección de reciclaje en la puerta que facilita el reciclaje para los residentes y ayuda a mantener tu comunidad limpia y verde."
+      },
+      "bulkItems": {
+        "title": "Artículos Voluminosos",
+        "short": "Muebles y objetos grandes",
+        "desc": "Recolectamos artículos voluminosos que los residentes ya no necesitan. Desde muebles hasta objetos grandes, nosotros hacemos el trabajo pesado."
+      },
+      "powerWash": {
+        "title": "Hidrolavado",
+        "short": "Limpieza a presión y restauración",
+        "desc": "Limpieza a alta presión para áreas comunes, banquetas, estacionamientos y más. Removemos suciedad, moho y manchas para mantener tu propiedad reluciente."
+      }
+    },
+    "learnMore": "Más información"
+  },
+  "howItWorks": {
+    "eyebrow": "Cómo funciona",
+    "title": "Simple, confiable, amigable con los residentes.",
+    "subtitle": "Tu comunidad se mantiene limpia sin complicaciones — y sin que jamás llegue una llamada a tu equipo de mantenimiento.",
+    "steps": [
+      {
+        "title": "Los residentes sacan las bolsas",
+        "desc": "Los residentes colocan las bolsas amarradas en su contenedor junto a la puerta antes del horario de recolección — sin caminar al basurero."
+      },
+      {
+        "title": "Recolectamos 5 noches por semana",
+        "desc": "Nuestros equipos capacitados y uniformados recolectan de cada puerta en un horario consistente — domingo a jueves."
+      },
+      {
+        "title": "Transporte al basurero central",
+        "desc": "La basura se transporta directamente a tu contenedor o compactador en sitio — sin demoras, sin desorden."
+      },
+      {
+        "title": "Comunidad más limpia y feliz",
+        "desc": "Los residentes aman el servicio. Mantenimiento recupera horas. Tus reseñas en línea y la apariencia mejoran."
+      }
+    ]
+  },
+  "calculator": {
+    "eyebrow": "Ve los números",
+    "title": "Calculadora de Ganancias de Valet Trash",
+    "subtitle": "Estima los ingresos mensuales y el ingreso operativo neto que Valet Trash puede añadir a tu comunidad. Ajusta los valores para que coincidan con tu propiedad.",
+    "labels": {
+      "doors": "Número de puertas (unidades)",
+      "fee": "Cuota mensual por residente ($)",
+      "cost": "Costo mayorista por puerta ($)",
+      "results": "Rendimiento mensual estimado",
+      "revenue": "Ingreso bruto mensual",
+      "expense": "Costo mensual del servicio",
+      "noi": "Ingreso Operativo Neto (NOI)",
+      "annual": "NOI anual proyectado",
+      "margin": "Margen",
+      "cta": "Obtener Propuesta con Estos Números",
+      "disclaimer": "Solo estimaciones. Tu propuesta personalizada incluirá precios exactos según el diseño y preferencias de tu comunidad."
+    }
+  },
+  "propertyTypes": {
+    "eyebrow": "Hecho para tu comunidad",
+    "title": "Servicio que se adapta a cómo está construida tu propiedad.",
+    "subtitle": "Cada comunidad es diferente. Nuestra logística se ajusta para edificios de jardín, corredores medios y edificios de alta densidad.",
+    "items": {
+      "garden": {
+        "title": "Estilo Jardín",
+        "desc": "Unidades individuales con entradas privadas. Nuestros porteros recorren cada puerta con contenedores resistentes a fugas — rápido, silencioso y minucioso."
+      },
+      "midRise": {
+        "title": "Corredor / Media Altura",
+        "desc": "Corredores interiores, espacios más ajustados. Estamos preparados para pasillos compartidos con rutas limpias y predecibles."
+      },
+      "highRise": {
+        "title": "Alta Densidad Urbana",
+        "desc": "Cuartos de ducto y logística de múltiples pisos. Nos integramos con tus sistemas existentes para un servicio nocturno impecable."
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Por qué asociarte con A&K",
+    "title": "El socio de servicio que tu comunidad merece.",
+    "items": {
+      "experienced": {
+        "title": "Experimentados",
+        "desc": "Años de experiencia atendiendo comunidades de apartamentos y HOAs en todo DFW."
+      },
+      "insured": {
+        "title": "Con Seguro Completo",
+        "desc": "Cobertura integral para tu protección y tranquilidad."
+      },
+      "ontime": {
+        "title": "Puntualidad",
+        "desc": "Nos presentamos a tiempo, siempre, listos para entregar excelentes resultados."
+      },
+      "satisfaction": {
+        "title": "Satisfacción del Residente",
+        "desc": "Nuestro objetivo son residentes felices y comunidades hermosas y bien mantenidas."
+      }
+    }
   },
   "stats": {
     "eyebrow": "En cifras",
-    "title": "Suficientemente pequeños para preocuparnos, suficientemente grandes para cumplir.",
+    "title": "Servicio confiable, resultados reales.",
     "items": {
-      "years": { "value": 15, "suffix": "+", "label": "Años de experiencia combinada" },
-      "properties": { "value": 100, "suffix": "+", "label": "Propiedades atendidas" },
-      "response": { "value": 24, "suffix": "hr", "label": "Tiempo promedio de respuesta" },
-      "satisfaction": { "value": 98, "suffix": "%", "label": "Satisfacción del cliente" }
+      "communities": { "value": 25, "suffix": "+", "label": "Comunidades atendidas en DFW" },
+      "doors": { "value": 5000, "suffix": "+", "label": "Puertas bajo servicio" },
+      "nights": { "value": 5, "suffix": "×", "label": "Noches por semana de recolección" },
+      "insured": { "value": 100, "suffix": "%", "label": "Con licencia y seguro" }
     }
   },
   "trust": {
-    "eyebrow": "A quiénes atendemos",
+    "eyebrow": "Confiado por",
     "items": [
-      "Edificios de Oficinas",
-      "Instalaciones Médicas",
-      "Locales Comerciales",
-      "Sitios Industriales",
-      "Comunidades HOA",
+      "Comunidades de Apartamentos",
+      "HOAs y Condominios",
       "Administradores de Propiedad",
-      "Instalaciones Educativas",
-      "Restaurantes"
+      "Propietarios Multifamiliares",
+      "Desarrollos de Uso Mixto",
+      "Vivienda Estudiantil",
+      "Vida para Adultos Mayores",
+      "Vivienda Corporativa"
     ]
   },
   "process": {
-    "eyebrow": "Cómo trabajamos",
-    "title": "Un proceso simple y transparente.",
-    "subtitle": "Sin sorpresas. Solo pasos claros desde la primera llamada hasta una propiedad impecable.",
+    "eyebrow": "Trabajando con nosotros",
+    "title": "De la primera llamada a la primera recolección — una semana o menos.",
+    "subtitle": "Sin sorpresas. Solo pasos claros desde la propuesta hasta una propiedad impecable.",
     "steps": [
-      { "title": "Contáctanos", "desc": "Cuéntanos sobre tu propiedad y qué necesitas. Escuchamos primero." },
-      { "title": "Recorrido gratuito", "desc": "Visitamos tu sitio, entendemos tus necesidades e identificamos lo más importante." },
-      { "title": "Cotización a la medida", "desc": "Recibes una cotización clara y detallada — sin cargos ocultos, sin sorpresas." },
-      { "title": "Nos presentamos", "desc": "Equipos uniformados, horario consistente, calidad que puedes señalar." }
+      { "title": "Propuesta gratuita", "desc": "Cuéntanos sobre tu comunidad. Construimos una propuesta personalizada en 48 horas." },
+      { "title": "Recorrido", "desc": "Visitamos tu propiedad, confirmamos logística y finalizamos el horario." },
+      { "title": "Lanzamiento con residentes", "desc": "Entregamos contenedores y materiales de comunicación a tus residentes." },
+      { "title": "Comienza el servicio", "desc": "Equipos uniformados en sitio cinco noches por semana. Apenas lo notas — ese es el punto." }
     ]
   },
   "beforeAfter": {
@@ -60,144 +195,133 @@
     "before": "Antes",
     "after": "Después"
   },
+  "areas": {
+    "eyebrow": "Dónde servimos",
+    "title": "Atendiendo comunidades de apartamentos en todo DFW.",
+    "subtitle": "Basados en DFW, Texas. ¿No ves tu área? Contáctanos — siempre estamos expandiéndonos.",
+    "list": [
+      "Dallas",
+      "Fort Worth",
+      "Arlington",
+      "Plano",
+      "Frisco",
+      "Irving",
+      "Garland",
+      "McKinney",
+      "Grand Prairie",
+      "Denton",
+      "Mesquite",
+      "Carrollton"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Historias de clientes",
+    "title": "La confianza de administradores en todo DFW.",
+    "items": [
+      {
+        "quote": "A&K ha sido confiable desde el primer día. Nuestros residentes aman el servicio de valet trash y mi equipo ha recuperado horas cada semana.",
+        "author": "[Nombre del Cliente]",
+        "role": "Administrador de Propiedad, [Comunidad]"
+      },
+      {
+        "quote": "El equipo es profesional, puntual y se comunica bien. Exactamente lo que necesitábamos para nuestra comunidad de 200 puertas.",
+        "author": "[Nombre del Cliente]",
+        "role": "Gerente Regional, [Empresa]"
+      },
+      {
+        "quote": "Cambiamos de otro proveedor e inmediatamente notamos la diferencia en calidad y consistencia. Altamente recomendados.",
+        "author": "[Nombre del Cliente]",
+        "role": "Propietario, [Grupo Comunitario]"
+      }
+    ]
+  },
   "faq": {
     "eyebrow": "Preguntas frecuentes",
     "title": "Todo lo que te podrías estar preguntando.",
     "items": [
       {
-        "q": "¿Tienen licencia y seguro?",
-        "a": "Sí — A&K Premier Property Solutions cuenta con licencia, fianza y seguro completos. Con gusto proporcionamos certificados de seguro a cualquier cliente que lo solicite."
+        "q": "¿Qué es el servicio de valet trash?",
+        "a": "Valet trash (también llamado recolección en la puerta) es un servicio nocturno donde los residentes colocan bolsas amarradas en un contenedor fuera de su puerta y nosotros las recolectamos — cinco noches por semana — y transportamos los residuos a tu basurero o compactador en sitio. Se acabaron las caminatas al basurero para los residentes; se acabaron los contenedores desbordados para ti."
       },
       {
-        "q": "¿Ofrecen cotizaciones gratuitas?",
-        "a": "Por supuesto. Cada cotización comienza con un recorrido gratuito y sin compromiso de tu propiedad para armar un plan que realmente funcione."
+        "q": "¿Tienen licencia y seguro?",
+        "a": "Sí — A&K Premier Property Solutions cuenta con licencia y seguro completos. Con gusto proporcionamos certificados de seguro a cualquier cliente que lo solicite."
+      },
+      {
+        "q": "¿Cuánto cuesta valet trash?",
+        "a": "El precio depende de tu conteo de puertas, diseño de la comunidad y frecuencia del servicio. Usa nuestra Calculadora de Ganancias arriba para modelar el NOI, o solicita una propuesta gratuita para una cotización exacta — la mayoría se entregan dentro de 48 horas."
       },
       {
         "q": "¿En qué áreas trabajan?",
-        "a": "Atendemos propiedades en toda la región. Si no estás seguro si cubrimos tu área, solo llama — siempre estamos expandiéndonos."
+        "a": "Atendemos comunidades de apartamentos y HOAs en toda la metrópolis DFW — Dallas, Fort Worth, Arlington, Plano, Frisco, Irving y áreas circundantes. ¿No estás seguro si cubrimos la tuya? Solo llama al (915) 238-0756."
       },
       {
-        "q": "¿Qué tan rápido pueden empezar?",
-        "a": "Para la mayoría de servicios, podemos comenzar dentro de una semana de firmar. Emergencias y limpiezas únicas a menudo se pueden agendar en 24-48 horas."
+        "q": "¿Qué tan rápido puede comenzar el servicio?",
+        "a": "Para la mayoría de propiedades, el servicio puede comenzar dentro de una semana de firmar. Servicios de emergencia y únicos (recolección de voluminosos, hidrolavado) a menudo se pueden agendar en 24-48 horas."
       },
       {
         "q": "¿Ofrecen servicio bilingüe?",
-        "a": "Sí — nuestro equipo se comunica cómodamente en inglés y español, tanto en la oficina como en el sitio."
+        "a": "Sí — nuestro personal de oficina y equipos en sitio se comunican cómodamente en inglés y español."
       },
       {
-        "q": "¿Qué pasa si no estoy satisfecho con una visita?",
-        "a": "Respaldamos cada trabajo. Si algo no está bien, avísanos dentro de 24 horas y volveremos a arreglarlo — sin costo."
-      }
-    ]
-  },
-  "services": {
-    "eyebrow": "Qué hacemos",
-    "title": "Cuidado completo, bajo un mismo techo.",
-    "subtitle": "Un socio de confianza para cada parte de tu propiedad — dentro y fuera.",
-    "items": {
-      "janitorial": {
-        "title": "Limpieza Comercial",
-        "desc": "Servicios de limpieza diarios, semanales y fuera de horario para oficinas, retail y espacios médicos."
-      },
-      "grounds": {
-        "title": "Jardinería y Terrenos",
-        "desc": "Cuidado del césped, limpieza estacional y mantenimiento estético durante todo el año."
-      },
-      "maintenance": {
-        "title": "Mantenimiento",
-        "desc": "Servicios de handyman, reparaciones menores y mantenimiento preventivo a tu horario."
-      },
-      "specialty": {
-        "title": "Servicios Especializados",
-        "desc": "Limpieza post-construcción, limpiezas profundas, hidrolavado y entregas de mudanza."
-      }
-    },
-    "learnMore": "Más información"
-  },
-  "why": {
-    "eyebrow": "Por qué A&K",
-    "title": "Un socio en el que realmente puedes confiar.",
-    "items": {
-      "vetted": {
-        "title": "Equipo capacitado y uniformado",
-        "desc": "Personal con verificación de antecedentes, equipos consistentes y supervisión en cada trabajo."
-      },
-      "insured": {
-        "title": "Licencia y seguro",
-        "desc": "Cobertura de responsabilidad completa para proteger tu propiedad y a las personas."
-      },
-      "response": {
-        "title": "Respuesta rápida",
-        "desc": "Personas reales contestan tus llamadas — la mayoría de solicitudes se atienden en 24 horas."
-      },
-      "custom": {
-        "title": "A la medida de tu propiedad",
-        "desc": "Alcances y horarios flexibles diseñados según cómo funciona realmente tu edificio."
-      }
-    }
-  },
-  "areas": {
-    "eyebrow": "Dónde trabajamos",
-    "title": "Atendiendo propietarios en toda la región.",
-    "subtitle": "¿No ves tu área? Contáctanos — siempre estamos expandiéndonos.",
-    "list": ["[Ciudad 1]", "[Ciudad 2]", "[Ciudad 3]", "[Ciudad 4]", "[Ciudad 5]", "[Ciudad 6]"]
-  },
-  "testimonials": {
-    "eyebrow": "Historias de clientes",
-    "title": "La confianza de propietarios y administradores.",
-    "items": [
-      {
-        "quote": "A&K transformó cómo se ve y se siente nuestro edificio. Su equipo es puntual, minucioso y fácil de tratar.",
-        "author": "[Nombre del Cliente]",
-        "role": "Administrador de Propiedad, [Empresa]"
+        "q": "¿Qué pasa si a un residente le falta una recolección?",
+        "a": "Rastreamos las recolecciones cada noche. Si se pierde una bolsa, avísanos dentro de 24 horas y volveremos a recogerla — sin costo, sin discusión."
       },
       {
-        "quote": "La empresa de servicios más confiable con la que hemos trabajado en diez años. Simplemente hacen que las cosas se hagan.",
-        "author": "[Nombre del Cliente]",
-        "role": "Propietario, [Empresa]"
-      },
-      {
-        "quote": "La comunicación es excelente y la calidad es consistente en cada visita. Altamente recomendados.",
-        "author": "[Nombre del Cliente]",
-        "role": "Director de Instalaciones, [Empresa]"
+        "q": "¿También manejan artículos voluminosos?",
+        "a": "Absolutamente. Nuestro servicio de Artículos Voluminosos maneja muebles, colchones y objetos grandes que tus residentes no pueden sacar en la noche de basura. Agéndalo regularmente o bajo demanda."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para el cuidado de propiedad hecho bien?",
-    "subtitle": "Cuéntanos sobre tu propiedad y armaremos un plan a tu medida.",
-    "button": "Solicita tu Cotización Gratuita"
+    "title": "¿Listo para una comunidad más limpia?",
+    "subtitle": "Cuéntanos sobre tu propiedad. Te enviaremos una propuesta personalizada en 48 horas — sin compromiso.",
+    "button": "Obtén Tu Propuesta Gratis",
+    "or": "o llama",
+    "callButton": "(915) 238-0756"
+  },
+  "newsletter": {
+    "title": "Mantente informado",
+    "subtitle": "Actualizaciones ocasionales sobre nuevos servicios, información de comunidades DFW y ofertas. Sin spam, cancela cuando quieras.",
+    "email": "Tu correo",
+    "submit": "Suscribirse",
+    "success": "¡Gracias — estás en la lista!"
   },
   "footer": {
-    "about": "A&K Premier Property Solutions LLC brinda servicios profesionales, confiables y de confianza para clientes comerciales y residenciales.",
+    "about": "A&K Premier Property Solutions LLC brinda servicios de valet trash, reciclaje, recolección de voluminosos e hidrolavado para comunidades de apartamentos y HOAs en todo DFW, Texas. Una comunidad más limpia. Una mejor experiencia de vida. Nosotros entregamos.",
     "quickLinks": "Enlaces Rápidos",
     "services": "Servicios",
     "contact": "Contacto",
     "phone": "Teléfono",
     "email": "Correo",
-    "address": "Dirección",
-    "phoneValue": "[POR DEFINIR]",
-    "emailValue": "[POR DEFINIR]",
-    "addressValue": "[POR DEFINIR]",
-    "rights": "Todos los derechos reservados."
+    "address": "Ubicación",
+    "phoneValue": "(915) 238-0756",
+    "emailValue": "info@akpremierpropertysolutions.com",
+    "addressValue": "DFW, Texas",
+    "rights": "Todos los derechos reservados.",
+    "bilingual": "We speak English too"
+  },
+  "sticky": {
+    "call": "Llamar",
+    "quote": "Propuesta"
   },
   "services_page": {
     "hero": {
       "eyebrow": "Nuestros Servicios",
-      "title": "Todo lo que tu propiedad necesita.",
-      "subtitle": "Elige los servicios que le convengan a tu edificio — o combínalos para una relación simple."
+      "title": "Todo lo que tu comunidad necesita.",
+      "subtitle": "Desde valet trash nocturno hasta hidrolavado bajo demanda — un socio de confianza para cada parte de tu propiedad."
     }
   },
   "about_page": {
     "hero": {
       "eyebrow": "Sobre A&K",
-      "title": "Cuidado de propiedad basado en la confianza — un cliente a la vez.",
-      "subtitle": "A&K Premier Property Solutions fue fundada con una idea simple: los propietarios merecen un socio de servicio que se presente, haga bien el trabajo, y trate cada edificio como si fuera propio."
+      "title": "Atendiendo comunidades DFW con orgullo.",
+      "subtitle": "A&K Premier Property Solutions LLC fue fundada para brindar a las comunidades de apartamentos y HOAs un socio de servicio que realmente se presenta, hace bien el trabajo y trata cada propiedad como si fuera propia."
     },
     "story": {
       "eyebrow": "Nuestra Historia",
-      "title": "De dónde venimos.",
-      "body": "[Historia del fundador — por definir con el cliente. Aquí contaremos cómo se fundó A&K, la trayectoria de los fundadores en servicios de propiedad, qué problema decidieron resolver, y por qué construyeron la empresa alrededor de los valores de ser Profesional, Confiable y De Confianza.]"
+      "title": "Hecho para las comunidades que atendemos.",
+      "body": "[Historia del fundador — por definir con el cliente. Aquí compartiremos la historia de cómo se fundó A&K en el área DFW, la trayectoria de los fundadores en servicios de propiedad, por qué se enfocan en comunidades de apartamentos y HOAs, y cómo los valores de ser Profesional, Confiable y De Confianza guían cada decisión.]"
     },
     "values": {
       "eyebrow": "Lo que defendemos",
@@ -209,11 +333,11 @@
         },
         "reliable": {
           "title": "Confiable",
-          "desc": "Nos presentamos cuando decimos que lo haremos. Calidad consistente, personas consistentes, en cada visita."
+          "desc": "Nos presentamos cuando decimos que lo haremos. Calidad consistente, personas consistentes, cada noche."
         },
         "trusted": {
           "title": "De Confianza",
-          "desc": "Con licencia, seguro y verificación de antecedentes. Los propietarios nos entregan las llaves porque nos las hemos ganado."
+          "desc": "Con licencia, seguro y enfocados en la comunidad. Los administradores renuevan porque nos lo hemos ganado."
         }
       }
     }
@@ -221,8 +345,8 @@
   "areas_page": {
     "hero": {
       "eyebrow": "Áreas de Servicio",
-      "title": "Atendiendo propietarios en toda la región.",
-      "subtitle": "Trabajamos con clientes comerciales y residenciales en las áreas listadas abajo. ¿No estás seguro si cubrimos la tuya? Solo pregunta."
+      "title": "Atendiendo comunidades de apartamentos en todo DFW.",
+      "subtitle": "Trabajamos con comunidades y HOAs en toda la metrópolis DFW. ¿No estás seguro si cubrimos la tuya? Solo pregunta."
     },
     "primary": "Áreas de Servicio Principales",
     "expanding": "También atendemos comunidades cercanas",
@@ -232,59 +356,60 @@
   "contact_page": {
     "hero": {
       "eyebrow": "Contacto",
-      "title": "Hablemos sobre tu propiedad.",
-      "subtitle": "Llama, envía un correo, o mándanos un mensaje — una persona real te responderá dentro de un día hábil."
+      "title": "Hablemos sobre tu comunidad.",
+      "subtitle": "Llama, envía un correo o mándanos un mensaje — una persona real te responderá dentro de un día hábil."
     },
     "hoursTitle": "Horario de Atención",
     "hoursValue": "Lunes – Viernes, 8:00 AM – 6:00 PM",
-    "emergencyTitle": "Servicio de Emergencia",
+    "emergencyTitle": "Soporte de Servicio",
     "emergencyValue": "Disponible 24/7 para clientes existentes"
   },
   "quote_page": {
     "hero": {
-      "eyebrow": "Solicitar Cotización",
-      "title": "Cuéntanos sobre tu propiedad.",
-      "subtitle": "Completa el formulario y te responderemos dentro de un día hábil con una cotización a la medida — sin compromiso."
+      "eyebrow": "Obtener Propuesta",
+      "title": "Cuéntanos sobre tu comunidad.",
+      "subtitle": "Completa el formulario y te enviaremos una propuesta personalizada en 48 horas — sin compromiso."
     },
     "form": {
       "name": "Nombre Completo",
       "email": "Correo Electrónico",
       "phone": "Teléfono",
-      "company": "Empresa / Nombre de Propiedad",
+      "company": "Comunidad / Nombre de Empresa",
       "service": "Servicio Necesitado",
       "servicePlaceholder": "Selecciona un servicio",
       "serviceOptions": {
-        "cleaning": "Limpieza Comercial",
-        "grounds": "Jardinería y Terrenos",
-        "maintenance": "Mantenimiento",
-        "specialty": "Servicios Especializados",
-        "other": "Otro / Múltiples"
+        "valetTrash": "Valet Trash",
+        "valetRecycling": "Valet Reciclaje",
+        "bulk": "Artículos Voluminosos",
+        "powerWash": "Hidrolavado",
+        "multiple": "Múltiples Servicios",
+        "other": "Otro"
       },
       "propertyType": "Tipo de Propiedad",
       "propertyOptions": {
-        "office": "Edificio de Oficinas",
-        "retail": "Local Comercial",
-        "medical": "Instalación Médica",
-        "residential": "Residencial",
-        "industrial": "Industrial / Bodega",
+        "garden": "Estilo Jardín",
+        "midRise": "Media Altura",
+        "highRise": "Alta Densidad",
+        "hoa": "HOA / Condominio",
+        "mixed": "Uso Mixto",
         "other": "Otro"
       },
-      "size": "Tamaño Aproximado (pies cuadrados)",
+      "size": "Número de puertas / unidades",
       "frequency": "Frecuencia del Servicio",
       "frequencyOptions": {
-        "daily": "Diaria",
+        "5nights": "5 Noches / Semana",
         "weekly": "Semanal",
         "biweekly": "Quincenal",
         "monthly": "Mensual",
-        "onetime": "Una sola vez",
+        "onetime": "Una vez / Bajo demanda",
         "unsure": "Aún no lo sé"
       },
       "message": "Detalles Adicionales",
-      "messagePlaceholder": "Cuéntanos cualquier cosa que nos ayude a preparar tu cotización…",
+      "messagePlaceholder": "Cuéntanos cualquier cosa que ayude a preparar tu propuesta…",
       "submit": "Enviar Solicitud",
       "submitting": "Enviando…",
-      "success": "¡Gracias! Hemos recibido tu solicitud y te contactaremos dentro de un día hábil.",
-      "error": "Algo salió mal. Por favor intenta de nuevo o llámanos directamente."
+      "success": "¡Gracias! Hemos recibido tu solicitud y enviaremos tu propuesta personalizada en 48 horas.",
+      "error": "Algo salió mal. Por favor intenta de nuevo o llama al (915) 238-0756 directamente."
     }
   }
 }

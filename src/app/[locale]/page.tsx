@@ -1,7 +1,10 @@
 import Hero from '@/components/Hero';
 import TrustBar from '@/components/TrustBar';
 import Services from '@/components/Services';
+import HowItWorks from '@/components/HowItWorks';
+import Calculator from '@/components/Calculator';
 import Stats from '@/components/Stats';
+import PropertyTypes from '@/components/PropertyTypes';
 import BeforeAfter from '@/components/BeforeAfter';
 import WhyUs from '@/components/WhyUs';
 import Process from '@/components/Process';
@@ -16,6 +19,9 @@ export default function HomePage() {
       <Hero />
       <TrustBar />
       <Services />
+      <HowItWorks />
+      <Calculator />
+      <PropertyTypes />
       <Stats />
       <BeforeAfter />
       <WhyUs />

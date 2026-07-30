@@ -5,30 +5,35 @@ import { motion } from 'framer-motion';
 import { Link } from '@/i18n/routing';
 import { useRef } from 'react';
 
-const KEYS = ['janitorial', 'grounds', 'maintenance', 'specialty'] as const;
+const KEYS = ['valetTrash', 'valetRecycling', 'bulkItems', 'powerWash'] as const;
 
 const ICONS: Record<(typeof KEYS)[number], React.ReactNode> = {
-  janitorial: (
-    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.6">
-      <path d="M4 20l4-10h8l4 10" strokeLinecap="round" strokeLinejoin="round" />
-      <path d="M9 10V4h6v6" strokeLinecap="round" strokeLinejoin="round" />
+  valetTrash: (
+    // Trash can
+    <svg viewBox="0 0 24 24" className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="1.6">
+      <path d="M4 7h16M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2M6 7l1 13a2 2 0 002 2h6a2 2 0 002-2l1-13" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M10 11v6M14 11v6" strokeLinecap="round" />
     </svg>
   ),
-  grounds: (
-    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.6">
-      <path d="M12 3c3 4 3 8 0 12-3-4-3-8 0-12z" strokeLinejoin="round" />
-      <path d="M4 21c4-3 12-3 16 0" strokeLinecap="round" />
+  valetRecycling: (
+    // Recycling symbol
+    <svg viewBox="0 0 24 24" className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="1.6">
+      <path d="M7 19h4l-2-3M17 19h-2l-3-5M12 5l2 3-4 0M7 19a2 2 0 01-1.7-3l2.5-4M17 19a2 2 0 001.7-3l-2.5-4M12 5a2 2 0 013.5 0l2 3.5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   ),
-  maintenance: (
-    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.6">
-      <path d="M14 3l7 7-4 4-7-7 4-4z" strokeLinejoin="round" />
-      <path d="M10 10L3 17v4h4l7-7" strokeLinejoin="round" />
+  bulkItems: (
+    // Sofa/couch
+    <svg viewBox="0 0 24 24" className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="1.6">
+      <path d="M4 12v6M20 12v6M4 12a2 2 0 012-2h12a2 2 0 012 2M4 14h16M6 18v2M18 18v2" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   ),
-  specialty: (
-    <svg viewBox="0 0 24 24" className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="1.6">
-      <path d="M12 3l2.5 5.5L20 9l-4 4 1 6-5-3-5 3 1-6-4-4 5.5-.5L12 3z" strokeLinejoin="round" />
+  powerWash: (
+    // Spray/pressure washer
+    <svg viewBox="0 0 24 24" className="w-7 h-7" fill="none" stroke="currentColor" strokeWidth="1.6">
+      <path d="M6 20h6l4-14h2M9 20l-1-3M12 20l-1-3M6 20l-1-3" strokeLinecap="round" strokeLinejoin="round" />
+      <circle cx="18" cy="4" r="1.5" fill="currentColor" opacity="0.6" />
+      <circle cx="20" cy="8" r="1" fill="currentColor" opacity="0.4" />
+      <circle cx="15" cy="6" r="1" fill="currentColor" opacity="0.4" />
     </svg>
   )
 };
@@ -75,32 +80,13 @@ export default function Services() {
     <section className="section bg-cream relative" id="services" aria-labelledby="services-title">
       <div className="container-x">
         <div className="max-w-2xl">
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="eyebrow mb-3"
-          >
+          <motion.div initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="eyebrow mb-3">
             {t('eyebrow')}
           </motion.div>
-          <motion.h2
-            id="services-title"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="font-display text-3xl xs:text-4xl lg:text-5xl text-navy font-semibold tracking-tight"
-          >
+          <motion.h2 id="services-title" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="font-display text-3xl xs:text-4xl lg:text-5xl text-navy font-semibold tracking-tight">
             {t('title')}
           </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.1 }}
-            className="mt-4 text-navy/65 text-base sm:text-lg"
-          >
+          <motion.p initial={{ opacity: 0, y: 16 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="mt-4 text-navy/65 text-base sm:text-lg">
             {t('subtitle')}
           </motion.p>
         </div>
@@ -109,8 +95,11 @@ export default function Services() {
           {KEYS.map((key, i) => (
             <TiltCard key={key} i={i}>
               <Link href="/services" className="card block h-full group">
-                <div className="w-12 h-12 rounded-xl bg-forest/10 text-forest flex items-center justify-center mb-5 group-hover:bg-forest group-hover:text-white transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
+                <div className="w-14 h-14 rounded-2xl bg-navy text-white flex items-center justify-center mb-5 group-hover:bg-forest transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 shadow-lg">
                   {ICONS[key]}
+                </div>
+                <div className="text-[10px] uppercase tracking-[0.16em] text-forest font-semibold mb-1">
+                  {t(`items.${key}.short`)}
                 </div>
                 <div className="font-display text-xl sm:text-2xl text-navy font-semibold mb-2">
                   {t(`items.${key}.title`)}

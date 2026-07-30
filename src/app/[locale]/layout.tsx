@@ -6,6 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollProgress from '@/components/ScrollProgress';
 import ButtonRipple from '@/components/ButtonRipple';
+import StickyMobileBar from '@/components/StickyMobileBar';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans', display: 'swap' });
 const display = Cormorant_Garamond({
@@ -39,6 +40,7 @@ export default async function LocaleLayout({
           <Header />
           <main id="main">{children}</main>
           <Footer />
+          <StickyMobileBar />
         </NextIntlClientProvider>
       </body>
     </html>

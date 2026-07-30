@@ -2,7 +2,12 @@
   "brand": {
     "name": "A&K Premier Property Solutions",
     "short": "A&K Premier",
-    "tagline": "Professional • Reliable • Trusted"
+    "tagline": "Smart Solutions. Cleaner Communities.",
+    "phone": "(915) 238-0756",
+    "phoneRaw": "+19152380756",
+    "email": "info@akpremierpropertysolutions.com",
+    "website": "www.akpremierpropertysolutions.com",
+    "location": "DFW, Texas"
   },
   "nav": {
     "home": "Home",
@@ -10,47 +15,177 @@
     "about": "About",
     "areas": "Service Areas",
     "contact": "Contact",
-    "quote": "Request a Quote"
+    "quote": "Get a Proposal",
+    "call": "Call Now"
   },
   "hero": {
-    "eyebrow": "Full-Service Property Solutions",
-    "title": "Premier care for the properties you take pride in.",
-    "subtitle": "From spotless commercial spaces to meticulously kept grounds, A&K delivers dependable property services that protect your investment and impress your tenants.",
-    "ctaPrimary": "Request a Free Quote",
-    "ctaSecondary": "Explore Services"
+    "eyebrow": "Apartment & HOA Property Services · DFW",
+    "title": "Smart Solutions. Cleaner Communities.",
+    "subtitle": "A&K Premier Property Solutions LLC delivers reliable, professional, and high-quality services that keep your community clean, safe, and looking its best — for residents you're proud to serve.",
+    "ctaPrimary": "Get a Free Proposal",
+    "ctaSecondary": "Call (915) 238-0756",
+    "trustDots": ["Fully Insured", "On-Time, Every Time", "Bilingual Crews", "DFW-Based"]
+  },
+  "values": {
+    "eyebrow": "Our promise",
+    "title": "Professional. Reliable. Trusted.",
+    "items": {
+      "professional": {
+        "title": "Professional",
+        "desc": "Trained, uniformed, and dependable teams on every job."
+      },
+      "reliable": {
+        "title": "Reliable",
+        "desc": "Consistent service you can count on, night after night."
+      },
+      "trusted": {
+        "title": "Trusted",
+        "desc": "Committed to your community — and to earning your renewal."
+      }
+    }
+  },
+  "services": {
+    "eyebrow": "Our services",
+    "title": "Everything your community needs, from one trusted partner.",
+    "subtitle": "Four core services designed for apartment communities, HOAs, and property managers across DFW.",
+    "items": {
+      "valetTrash": {
+        "title": "Valet Trash",
+        "short": "Doorstep trash collection",
+        "desc": "Doorstep trash collection for a cleaner, more convenient community. We take care of the trash so your residents don't have to."
+      },
+      "valetRecycling": {
+        "title": "Valet Recycling",
+        "short": "Doorstep recycling collection",
+        "desc": "Doorstep recycling collection that makes it easy for residents to recycle and helps keep your community clean and green."
+      },
+      "bulkItems": {
+        "title": "Bulk Items",
+        "short": "Furniture & large-item pickup",
+        "desc": "We collect bulky items residents no longer need. From furniture to large household items, we handle the heavy lifting for you."
+      },
+      "powerWash": {
+        "title": "Power Wash",
+        "short": "Pressure cleaning & restoration",
+        "desc": "High-pressure cleaning for common areas, sidewalks, parking lots, and more. We remove dirt, mold, and stains to keep your property shining."
+      }
+    },
+    "learnMore": "Learn more"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "title": "Simple, dependable, resident-friendly.",
+    "subtitle": "Your community stays clean without the hassle — and without a call ever landing on your maintenance team.",
+    "steps": [
+      {
+        "title": "Residents set out bags",
+        "desc": "Residents place tied bags in their doorstep container before pickup hours — no walking to the dumpster."
+      },
+      {
+        "title": "We collect 5 nights a week",
+        "desc": "Our trained, uniformed crews collect from every door on a consistent schedule — Sunday through Thursday."
+      },
+      {
+        "title": "Transport to central dumpster",
+        "desc": "Waste is transported directly to your on-site dumpster or compactor — no lingering, no mess."
+      },
+      {
+        "title": "Cleaner, happier community",
+        "desc": "Residents love the amenity. Maintenance reclaims hours. Your online reviews and curb appeal both go up."
+      }
+    ]
+  },
+  "calculator": {
+    "eyebrow": "See the numbers",
+    "title": "Valet Trash Profit Calculator",
+    "subtitle": "Estimate the monthly revenue and net operating income Valet Trash can add to your community. Slide the values below to match your property.",
+    "labels": {
+      "doors": "Number of doors (units)",
+      "fee": "Monthly fee per resident ($)",
+      "cost": "Wholesale cost per door ($)",
+      "results": "Estimated monthly performance",
+      "revenue": "Gross monthly revenue",
+      "expense": "Monthly service cost",
+      "noi": "Net Operating Income (NOI)",
+      "annual": "Projected annual NOI",
+      "margin": "Margin",
+      "cta": "Get a Proposal Based on These Numbers",
+      "disclaimer": "Estimates only. Your custom proposal will include exact pricing based on your community's layout and service preferences."
+    }
+  },
+  "propertyTypes": {
+    "eyebrow": "Built for your community",
+    "title": "Service that adapts to how your property is built.",
+    "subtitle": "Every community is different. Our logistics flex to fit garden-style walk-ups, mid-rise corridors, and high-density buildings.",
+    "items": {
+      "garden": {
+        "title": "Garden-Style",
+        "desc": "Individual units with private entrances. Our porters walk every door with leak-resistant containers — fast, quiet, and thorough."
+      },
+      "midRise": {
+        "title": "Mid-Rise & Corridor",
+        "desc": "Interior corridors, tighter spaces. We're built for shared hallways with routes that stay clean and predictable."
+      },
+      "highRise": {
+        "title": "High-Rise & Urban",
+        "desc": "Chute rooms and multi-floor logistics. We integrate with your existing systems for seamless nightly service."
+      }
+    }
+  },
+  "why": {
+    "eyebrow": "Why partner with A&K",
+    "title": "The service partner your community deserves.",
+    "items": {
+      "experienced": {
+        "title": "Experienced",
+        "desc": "Years of experience serving apartment communities and HOAs across DFW."
+      },
+      "insured": {
+        "title": "Fully Insured",
+        "desc": "Comprehensive coverage for your protection and peace of mind."
+      },
+      "ontime": {
+        "title": "On-Time Service",
+        "desc": "We show up on time, every time, ready to deliver excellent results."
+      },
+      "satisfaction": {
+        "title": "Resident Satisfaction",
+        "desc": "Our goal is happy residents and beautiful, well-maintained communities."
+      }
+    }
   },
   "stats": {
     "eyebrow": "By the numbers",
-    "title": "Small enough to care, big enough to deliver.",
+    "title": "Reliable service, real results.",
     "items": {
-      "years": { "value": 15, "suffix": "+", "label": "Years of combined experience" },
-      "properties": { "value": 100, "suffix": "+", "label": "Properties served" },
-      "response": { "value": 24, "suffix": "hr", "label": "Average response time" },
-      "satisfaction": { "value": 98, "suffix": "%", "label": "Client satisfaction" }
+      "communities": { "value": 25, "suffix": "+", "label": "Communities served across DFW" },
+      "doors": { "value": 5000, "suffix": "+", "label": "Doors under service" },
+      "nights": { "value": 5, "suffix": "×", "label": "Nights per week collection" },
+      "insured": { "value": 100, "suffix": "%", "label": "Licensed & insured" }
     }
   },
   "trust": {
-    "eyebrow": "Who we serve",
+    "eyebrow": "Trusted by",
     "items": [
-      "Office Buildings",
-      "Medical Facilities",
-      "Retail Spaces",
-      "Industrial Sites",
-      "HOA Communities",
+      "Apartment Communities",
+      "HOAs & Condo Associations",
       "Property Managers",
-      "Educational Facilities",
-      "Restaurants"
+      "Multifamily Owners",
+      "Mixed-Use Developments",
+      "Student Housing",
+      "Senior Living",
+      "Corporate Housing"
     ]
   },
   "process": {
-    "eyebrow": "How we work",
-    "title": "A simple, transparent process.",
-    "subtitle": "No surprises. Just clear steps from first call to a spotless property.",
+    "eyebrow": "Working with us",
+    "title": "From first call to first pickup — one week or less.",
+    "subtitle": "No surprises. Just clear steps from proposal to a spotless property.",
     "steps": [
-      { "title": "Get in touch", "desc": "Tell us about your property and what you need. We listen first." },
-      { "title": "Free walkthrough", "desc": "We visit your site, understand your needs, and identify what matters most." },
-      { "title": "Custom quote", "desc": "You get a clear, itemized quote — no hidden fees, no surprises." },
-      { "title": "We show up", "desc": "Uniformed crews, consistent schedule, quality you can point to." }
+      { "title": "Free proposal", "desc": "Tell us about your community. We build a custom proposal in 48 hours." },
+      { "title": "Walkthrough", "desc": "We visit your property, confirm logistics, and finalize the schedule." },
+      { "title": "Resident rollout", "desc": "We deliver containers and communication materials to your residents." },
+      { "title": "Service starts", "desc": "Uniformed crews on-site five nights a week. You barely notice — that's the point." }
     ]
   },
   "beforeAfter": {
@@ -60,144 +195,133 @@
     "before": "Before",
     "after": "After"
   },
+  "areas": {
+    "eyebrow": "Where we serve",
+    "title": "Serving apartment communities across DFW.",
+    "subtitle": "Based in DFW, Texas. Don't see your area? Reach out — we're always expanding.",
+    "list": [
+      "Dallas",
+      "Fort Worth",
+      "Arlington",
+      "Plano",
+      "Frisco",
+      "Irving",
+      "Garland",
+      "McKinney",
+      "Grand Prairie",
+      "Denton",
+      "Mesquite",
+      "Carrollton"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Client stories",
+    "title": "Trusted by property managers across DFW.",
+    "items": [
+      {
+        "quote": "A&K has been reliable from day one. Our residents love the valet trash amenity and my team has reclaimed hours every week.",
+        "author": "[Client Name]",
+        "role": "Property Manager, [Community]"
+      },
+      {
+        "quote": "The team is professional, on time, and communicates well. Exactly what we needed for our 200-door community.",
+        "author": "[Client Name]",
+        "role": "Regional Manager, [Company]"
+      },
+      {
+        "quote": "We switched from another provider and immediately noticed the difference in quality and consistency. Highly recommended.",
+        "author": "[Client Name]",
+        "role": "Owner, [Community Group]"
+      }
+    ]
+  },
   "faq": {
     "eyebrow": "Common questions",
     "title": "Everything you might be wondering.",
     "items": [
       {
-        "q": "Are you licensed and insured?",
-        "a": "Yes — A&K Premier Property Solutions is fully licensed, bonded, and insured. We're happy to provide certificates of insurance to any client on request."
+        "q": "What is valet trash service?",
+        "a": "Valet trash (also called doorstep trash) is a nightly amenity where residents place tied bags in a container outside their door and we collect them — five nights a week — and transport the waste to your on-site dumpster or compactor. No more dumpster runs for residents; no more overflowing bins for you."
       },
       {
-        "q": "Do you offer free estimates?",
-        "a": "Absolutely. Every quote starts with a free, no-obligation walkthrough of your property so we can build a plan that actually fits."
+        "q": "Are you licensed and insured?",
+        "a": "Yes — A&K Premier Property Solutions is fully licensed and insured. We're happy to provide certificates of insurance to any client on request."
+      },
+      {
+        "q": "How much does valet trash cost?",
+        "a": "Pricing depends on your door count, community layout, and service frequency. Use our Profit Calculator above to model NOI, or request a free proposal for an exact quote — most quotes are turned around within 48 hours."
       },
       {
         "q": "What areas do you serve?",
-        "a": "We serve properties throughout the region. If you're not sure whether we cover your area, just call — we're always expanding."
+        "a": "We serve apartment communities and HOAs across the DFW metroplex — Dallas, Fort Worth, Arlington, Plano, Frisco, Irving, and surrounding areas. Not sure if we cover yours? Just call (915) 238-0756."
       },
       {
-        "q": "How quickly can you start?",
-        "a": "For most services, we can begin within one week of signing. Emergency and one-time cleans can often be scheduled within 24-48 hours."
+        "q": "How quickly can service start?",
+        "a": "For most properties, service can begin within one week of signing. Emergency and one-time services (bulk pickups, power washing) can often be scheduled within 24–48 hours."
       },
       {
         "q": "Do you offer bilingual service?",
-        "a": "Yes — our team communicates comfortably in both English and Spanish, in the office and on-site."
+        "a": "Yes — our office staff and on-site crews communicate comfortably in both English and Spanish."
       },
       {
-        "q": "What if I'm not satisfied with a visit?",
-        "a": "We stand behind every job. If something isn't right, tell us within 24 hours and we'll come back and make it right — no charge."
-      }
-    ]
-  },
-  "services": {
-    "eyebrow": "What we do",
-    "title": "Complete property care, under one roof.",
-    "subtitle": "One trusted partner for every part of your property — inside and out.",
-    "items": {
-      "janitorial": {
-        "title": "Commercial Cleaning",
-        "desc": "Daily, weekly, and after-hours janitorial for offices, retail, and medical spaces."
-      },
-      "grounds": {
-        "title": "Landscaping & Grounds",
-        "desc": "Lawn care, seasonal cleanup, and curb-appeal maintenance year-round."
-      },
-      "maintenance": {
-        "title": "Property Maintenance",
-        "desc": "Handyman services, minor repairs, and preventative upkeep on your schedule."
-      },
-      "specialty": {
-        "title": "Specialty Services",
-        "desc": "Post-construction cleanup, deep cleans, pressure washing, and move-out turnovers."
-      }
-    },
-    "learnMore": "Learn more"
-  },
-  "why": {
-    "eyebrow": "Why A&K",
-    "title": "A property partner you can actually count on.",
-    "items": {
-      "vetted": {
-        "title": "Vetted, uniformed team",
-        "desc": "Background-checked staff, consistent crews, and supervision on every job."
-      },
-      "insured": {
-        "title": "Licensed & insured",
-        "desc": "Full liability coverage so your property and people are protected."
-      },
-      "response": {
-        "title": "Fast response",
-        "desc": "Real people answer your calls — most requests handled within 24 hours."
-      },
-      "custom": {
-        "title": "Tailored to your property",
-        "desc": "Flexible scopes and schedules built around how your building actually runs."
-      }
-    }
-  },
-  "areas": {
-    "eyebrow": "Where we work",
-    "title": "Serving property owners across the region.",
-    "subtitle": "Don't see your area? Reach out — we're always expanding.",
-    "list": ["[City 1]", "[City 2]", "[City 3]", "[City 4]", "[City 5]", "[City 6]"]
-  },
-  "testimonials": {
-    "eyebrow": "Client stories",
-    "title": "Trusted by property owners and managers.",
-    "items": [
-      {
-        "quote": "A&K transformed how our building looks and feels. Their team is punctual, thorough, and easy to work with.",
-        "author": "[Client Name]",
-        "role": "Property Manager, [Company]"
+        "q": "What if a resident misses pickup?",
+        "a": "We track pickups nightly. If a bag is missed, tell us within 24 hours and we'll come back and grab it — no charge, no argument."
       },
       {
-        "quote": "The most reliable service company we've worked with in ten years. They just get it done.",
-        "author": "[Client Name]",
-        "role": "Owner, [Company]"
-      },
-      {
-        "quote": "Communication is excellent and the quality is consistent every single visit. Highly recommended.",
-        "author": "[Client Name]",
-        "role": "Facilities Director, [Company]"
+        "q": "Can you handle bulk items too?",
+        "a": "Absolutely. Our Bulk Items service handles furniture, mattresses, and large household items your residents can't take out on trash night. Schedule regularly or on-demand."
       }
     ]
   },
   "cta": {
-    "title": "Ready for property care done right?",
-    "subtitle": "Tell us about your property and we'll put together a plan that fits.",
-    "button": "Request Your Free Quote"
+    "title": "Ready for a cleaner community?",
+    "subtitle": "Tell us about your property. We'll send a custom proposal within 48 hours — no obligation.",
+    "button": "Get Your Free Proposal",
+    "or": "or call",
+    "callButton": "(915) 238-0756"
+  },
+  "newsletter": {
+    "title": "Stay in the loop",
+    "subtitle": "Occasional updates on new services, DFW community insights, and offers. No spam, unsubscribe anytime.",
+    "email": "Your email",
+    "submit": "Subscribe",
+    "success": "Thanks — you're on the list!"
   },
   "footer": {
-    "about": "A&K Premier Property Solutions LLC provides professional, reliable, and trusted property services for commercial and residential clients.",
+    "about": "A&K Premier Property Solutions LLC provides valet trash, recycling, bulk pickup, and power washing services for apartment communities and HOAs across DFW, Texas. A cleaner community. A better living experience. We deliver.",
     "quickLinks": "Quick Links",
     "services": "Services",
     "contact": "Contact",
     "phone": "Phone",
     "email": "Email",
-    "address": "Address",
-    "phoneValue": "[TO BE PROVIDED]",
-    "emailValue": "[TO BE PROVIDED]",
-    "addressValue": "[TO BE PROVIDED]",
-    "rights": "All rights reserved."
+    "address": "Location",
+    "phoneValue": "(915) 238-0756",
+    "emailValue": "info@akpremierpropertysolutions.com",
+    "addressValue": "DFW, Texas",
+    "rights": "All rights reserved.",
+    "bilingual": "Se habla español"
+  },
+  "sticky": {
+    "call": "Call",
+    "quote": "Get a Proposal"
   },
   "services_page": {
     "hero": {
       "eyebrow": "Our Services",
-      "title": "Everything your property needs.",
-      "subtitle": "Choose the services that fit your building — or bundle them for one simple relationship."
+      "title": "Everything your community needs.",
+      "subtitle": "From nightly valet trash to on-demand power washing — one trusted partner for every part of your property."
     }
   },
   "about_page": {
     "hero": {
       "eyebrow": "About A&K",
-      "title": "Property care built on trust — one client at a time.",
-      "subtitle": "A&K Premier Property Solutions was founded on a simple idea: property owners deserve a service partner who shows up, does the work right, and treats every building like their own."
+      "title": "Serving DFW communities with pride.",
+      "subtitle": "A&K Premier Property Solutions LLC was founded to bring apartment communities and HOAs a service partner who actually shows up, does the work right, and treats every property like our own."
     },
     "story": {
       "eyebrow": "Our Story",
-      "title": "Where we come from.",
-      "body": "[Founder story placeholder — client to provide. This is where we'll tell the story of how A&K was founded, the founders' background in property services, what problem they set out to solve, and why they built the company around the values of being Professional, Reliable, and Trusted.]"
+      "title": "Built for the communities we serve.",
+      "body": "[Founder story placeholder — client to provide. This is where we'll share the story of how A&K was founded in the DFW area, the founders' background in property services, why they focus on apartment communities and HOAs, and how the values of being Professional, Reliable, and Trusted guide every decision.]"
     },
     "values": {
       "eyebrow": "What we stand for",
@@ -209,11 +333,11 @@
         },
         "reliable": {
           "title": "Reliable",
-          "desc": "We show up when we say we will. Consistent quality, consistent people, every single visit."
+          "desc": "We show up when we say we will. Consistent quality, consistent people, every single night."
         },
         "trusted": {
           "title": "Trusted",
-          "desc": "Licensed, insured, and background-checked. Property owners hand us the keys because we've earned them."
+          "desc": "Licensed, insured, and community-focused. Property managers renew because we've earned it."
         }
       }
     }
@@ -221,8 +345,8 @@
   "areas_page": {
     "hero": {
       "eyebrow": "Service Areas",
-      "title": "Serving property owners across the region.",
-      "subtitle": "We work with commercial and residential clients throughout the areas below. Not sure if we cover yours? Just ask."
+      "title": "Serving apartment communities across DFW.",
+      "subtitle": "We work with communities and HOAs throughout the DFW metroplex. Not sure if we cover yours? Just ask."
     },
     "primary": "Primary Service Areas",
     "expanding": "Also serving nearby communities",
@@ -232,59 +356,60 @@
   "contact_page": {
     "hero": {
       "eyebrow": "Contact",
-      "title": "Let's talk about your property.",
+      "title": "Let's talk about your community.",
       "subtitle": "Call, email, or send us a note — a real person will get back to you within one business day."
     },
     "hoursTitle": "Business Hours",
     "hoursValue": "Monday – Friday, 8:00 AM – 6:00 PM",
-    "emergencyTitle": "Emergency Service",
+    "emergencyTitle": "Service Support",
     "emergencyValue": "Available 24/7 for existing clients"
   },
   "quote_page": {
     "hero": {
-      "eyebrow": "Request a Quote",
-      "title": "Tell us about your property.",
-      "subtitle": "Fill out the form below and we'll get back to you within one business day with a tailored quote — no obligation."
+      "eyebrow": "Get a Proposal",
+      "title": "Tell us about your community.",
+      "subtitle": "Fill out the form below and we'll send a custom proposal within 48 hours — no obligation."
     },
     "form": {
       "name": "Full Name",
       "email": "Email Address",
       "phone": "Phone Number",
-      "company": "Company / Property Name",
+      "company": "Community / Company Name",
       "service": "Service Needed",
       "servicePlaceholder": "Select a service",
       "serviceOptions": {
-        "cleaning": "Commercial Cleaning",
-        "grounds": "Landscaping & Grounds",
-        "maintenance": "Property Maintenance",
-        "specialty": "Specialty Services",
-        "other": "Other / Multiple"
+        "valetTrash": "Valet Trash",
+        "valetRecycling": "Valet Recycling",
+        "bulk": "Bulk Items",
+        "powerWash": "Power Wash",
+        "multiple": "Multiple Services",
+        "other": "Other"
       },
       "propertyType": "Property Type",
       "propertyOptions": {
-        "office": "Office Building",
-        "retail": "Retail Space",
-        "medical": "Medical Facility",
-        "residential": "Residential",
-        "industrial": "Industrial / Warehouse",
+        "garden": "Garden-Style Apartments",
+        "midRise": "Mid-Rise",
+        "highRise": "High-Rise",
+        "hoa": "HOA / Condo Association",
+        "mixed": "Mixed-Use",
         "other": "Other"
       },
-      "size": "Approximate Size (sq ft)",
+      "size": "Number of doors / units",
       "frequency": "Service Frequency",
       "frequencyOptions": {
-        "daily": "Daily",
+        "5nights": "5 Nights / Week",
         "weekly": "Weekly",
         "biweekly": "Bi-weekly",
         "monthly": "Monthly",
-        "onetime": "One-time",
+        "onetime": "One-time / On-demand",
         "unsure": "Not sure yet"
       },
       "message": "Additional Details",
-      "messagePlaceholder": "Tell us anything else that'll help us prepare your quote…",
+      "messagePlaceholder": "Tell us anything else that will help us prepare your proposal…",
       "submit": "Send Request",
       "submitting": "Sending…",
-      "success": "Thanks! We've received your request and will be in touch within one business day.",
-      "error": "Something went wrong. Please try again or call us directly."
+      "success": "Thanks! We've received your request and will send your custom proposal within 48 hours.",
+      "error": "Something went wrong. Please try again or call (915) 238-0756 directly."
     }
   }
 }

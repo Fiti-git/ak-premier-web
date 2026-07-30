@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import { motion, useInView, animate } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
 
-const KEYS = ['years', 'properties', 'response', 'satisfaction'] as const;
+const KEYS = ['communities', 'doors', 'nights', 'insured'] as const;
 
 function Counter({ to, suffix }: { to: number; suffix: string }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -23,7 +23,7 @@ function Counter({ to, suffix }: { to: number; suffix: string }) {
 
   return (
     <span ref={ref}>
-      {val}
+      {val.toLocaleString()}
       <span className="text-forest">{suffix}</span>
     </span>
   );
@@ -36,23 +36,10 @@ export default function Stats() {
     <section className="section relative overflow-hidden" aria-labelledby="stats-title">
       <div className="container-x">
         <div className="max-w-2xl mb-10 sm:mb-14">
-          <motion.div
-            initial={{ opacity: 0, y: 12 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className="eyebrow mb-3"
-          >
+          <motion.div initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="eyebrow mb-3">
             {t('eyebrow')}
           </motion.div>
-          <motion.h2
-            id="stats-title"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-            className="font-display text-3xl xs:text-4xl lg:text-5xl text-navy font-semibold tracking-tight"
-          >
+          <motion.h2 id="stats-title" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="font-display text-3xl xs:text-4xl lg:text-5xl text-navy font-semibold tracking-tight">
             {t('title')}
           </motion.h2>
         </div>
