@@ -5,7 +5,6 @@ import HowItWorks from '@/components/HowItWorks';
 import Calculator from '@/components/Calculator';
 import Stats from '@/components/Stats';
 import PropertyTypes from '@/components/PropertyTypes';
-import BeforeAfter from '@/components/BeforeAfter';
 import WhyUs from '@/components/WhyUs';
 import Process from '@/components/Process';
 import Areas from '@/components/Areas';
@@ -23,7 +22,6 @@ export default function HomePage() {
       <Calculator />
       <PropertyTypes />
       <Stats />
-      <BeforeAfter />
       <WhyUs />
       <Process />
       <Areas />

@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useTranslations } from 'next-intl';
 import { useRef } from 'react';
+import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 
 export default function Hero() {
@@ -75,7 +76,14 @@ export default function Hero() {
 
         <motion.div initial={{ opacity: 0, scale: 0.94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.9, delay: 0.2, ease: [0.2, 0.8, 0.2, 1] }} className="lg:col-span-5 relative">
           <motion.div style={{ y: imgY }} className="relative aspect-[4/5] w-full rounded-3xl overflow-hidden shadow-[0_40px_80px_-40px_rgba(27,44,92,0.4)]">
-            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-[8s] hover:scale-110" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80')" }} />
+            <Image
+              src="/community.jpg"
+              alt="DFW apartment community served by A&K Premier Property Solutions"
+              fill
+              sizes="(max-width: 1024px) 100vw, 40vw"
+              priority
+              className="object-cover transition-transform duration-[8s] hover:scale-110"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-navy/70 via-navy/10 to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 text-white">
               <div className="text-xs uppercase tracking-[0.16em] opacity-80">DFW, Texas</div>

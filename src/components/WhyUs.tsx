@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const KEYS = ['experienced', 'insured', 'ontime', 'satisfaction'] as const;
 
@@ -18,9 +19,19 @@ export default function WhyUs() {
           <motion.h2 id="why-title" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="font-display text-3xl xs:text-4xl lg:text-5xl text-navy font-semibold tracking-tight">
             {t('title')}
           </motion.h2>
-          <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.1 }} className="mt-8 aspect-[4/3] rounded-3xl overflow-hidden relative group">
-            <div className="w-full h-full bg-cover bg-center transition-transform duration-[8s] group-hover:scale-110" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1580216643062-cf460548a66a?auto=format&fit=crop&w=1000&q=80')" }} />
-            <div className="absolute inset-0 bg-gradient-to-t from-navy/30 to-transparent" />
+          <motion.div initial={{ opacity: 0, scale: 0.95 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.1 }} className="mt-8 aspect-[4/3] rounded-3xl overflow-hidden relative group bg-cream">
+            <Image
+              src="/truck.jpg"
+              alt="A&K Premier Property Solutions service truck at an apartment community"
+              fill
+              sizes="(max-width: 1024px) 100vw, 40vw"
+              className="object-cover transition-transform duration-[8s] group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-navy/40 via-transparent to-transparent" />
+            <div className="absolute bottom-5 left-5 right-5 text-white">
+              <div className="text-[10px] uppercase tracking-[0.18em] opacity-80">Our fleet</div>
+              <div className="font-display text-xl mt-0.5">On-site, on time.</div>
+            </div>
           </motion.div>
         </div>
 
