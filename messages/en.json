@@ -194,7 +194,7 @@
     "steps": [
       { "title": "Free proposal", "desc": "Tell us about your community. We build a custom proposal in 48 hours." },
       { "title": "Walkthrough", "desc": "We visit your property, confirm logistics, and finalize the schedule." },
-      { "title": "Resident rollout", "desc": "We deliver containers and communication materials to your residents." },
+      { "title": "Resident rollout", "desc": "We deliver communication materials to your residents — and, if your community requires it, we can also deliver the doorstep containers." },
       { "title": "Service starts", "desc": "Uniformed crews on-site five nights a week. You barely notice — that's the point." }
     ]
   },
