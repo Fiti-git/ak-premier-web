@@ -20,6 +20,8 @@ JOBS = [
     ('property-garden.png',       'property-garden.jpg',       800),
     ('property-midrise.png',      'property-midrise.jpg',      800),
     ('property-highrise.png',     'property-highrise.jpg',     800),
+    ('service-property-cleaner.png', 'service-property-cleaner.jpg', 800),
+    ('service-move-out.png',      'service-move-out.jpg',      800),
 ]
 
 for src_name, dst_name, max_w in JOBS:

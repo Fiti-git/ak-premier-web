@@ -47,7 +47,7 @@
   "services": {
     "eyebrow": "Nuestros servicios",
     "title": "Todo lo que tu comunidad necesita, de un solo socio de confianza.",
-    "subtitle": "Cuatro servicios principales diseñados para comunidades de apartamentos, HOAs y administradores en todo el DFW.",
+    "subtitle": "Seis servicios principales diseñados para comunidades de apartamentos, HOAs y administradores en todo el DFW.",
     "items": {
       "valetTrash": {
         "title": "Valet Trash",
@@ -68,6 +68,16 @@
         "title": "Hidrolavado",
         "short": "Limpieza a presión y restauración",
         "desc": "Limpieza a alta presión para áreas comunes, banquetas, estacionamientos y más. Removemos suciedad, moho y manchas para mantener tu propiedad reluciente."
+      },
+      "propertyCleaner": {
+        "title": "Limpieza de Propiedad",
+        "short": "Áreas comunes y apariencia",
+        "desc": "Mantén tu propiedad limpia, acogedora y profesionalmente cuidada. Nuestros servicios de limpieza de propiedad ayudan a mantener áreas comunes, mejorar la apariencia y crear un ambiente más limpio para residentes e invitados."
+      },
+      "moveOut": {
+        "title": "Limpieza de Mudanza",
+        "short": "Cambio de residente y listo para habitar",
+        "desc": "Servicios de limpieza a fondo que preparan las unidades para sus próximos residentes. Ayudamos a los equipos de administración a agilizar los cambios, mantener los estándares de la propiedad y asegurar que cada unidad esté limpia, fresca y lista para habitar."
       }
     },
     "learnMore": "Más información"
@@ -382,6 +392,8 @@
         "valetRecycling": "Valet Reciclaje",
         "bulk": "Artículos Voluminosos",
         "powerWash": "Hidrolavado",
+        "propertyCleaner": "Limpieza de Propiedad",
+        "moveOut": "Limpieza de Mudanza",
         "multiple": "Múltiples Servicios",
         "other": "Otro"
       },

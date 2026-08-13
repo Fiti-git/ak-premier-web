@@ -6,13 +6,15 @@ import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { useRef } from 'react';
 
-const KEYS = ['valetTrash', 'valetRecycling', 'bulkItems', 'powerWash'] as const;
+const KEYS = ['valetTrash', 'valetRecycling', 'bulkItems', 'powerWash', 'propertyCleaner', 'moveOut'] as const;
 
 const PHOTOS: Record<(typeof KEYS)[number], string> = {
   valetTrash: '/service-valet-trash.jpg',
   valetRecycling: '/service-recycling.jpg',
   bulkItems: '/service-bulk.jpg',
-  powerWash: '/service-power-wash.jpg'
+  powerWash: '/service-power-wash.jpg',
+  propertyCleaner: '/service-property-cleaner.jpg',
+  moveOut: '/service-move-out.jpg'
 };
 
 const ICONS: Record<(typeof KEYS)[number], React.ReactNode> = {
@@ -36,6 +38,19 @@ const ICONS: Record<(typeof KEYS)[number], React.ReactNode> = {
     <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8">
       <path d="M6 20h6l4-14h2M9 20l-1-3M12 20l-1-3M6 20l-1-3" strokeLinecap="round" strokeLinejoin="round" />
       <circle cx="18" cy="4" r="1.5" fill="currentColor" opacity="0.6" />
+    </svg>
+  ),
+  propertyCleaner: (
+    // Broom + sparkle
+    <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <path d="M13 4l6 6M6 21l3-3-3-3-3 3 3 3zM9 18l9-9-3-3-9 9 3 3z" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M20 3l1 2 2 1-2 1-1 2-1-2-2-1 2-1z" strokeLinejoin="round" />
+    </svg>
+  ),
+  moveOut: (
+    // Door with key/arrow (move in-out concept)
+    <svg viewBox="0 0 24 24" className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.8">
+      <path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4M16 17l5-5-5-5M21 12H9" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   )
 };
@@ -93,17 +108,16 @@ export default function Services() {
           </motion.p>
         </div>
 
-        <div className="mt-10 sm:mt-14 grid gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 sm:mt-14 grid gap-5 sm:gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {KEYS.map((key, i) => (
             <TiltCard key={key} i={i}>
               <Link href="/services" className="card !p-0 block h-full group overflow-hidden">
-                {/* Real photo from flyer */}
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <Image
                     src={PHOTOS[key]}
                     alt={t(`items.${key}.title`)}
                     fill
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     className="object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-navy/40 via-transparent to-transparent" />

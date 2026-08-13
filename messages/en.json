@@ -47,7 +47,7 @@
   "services": {
     "eyebrow": "Our services",
     "title": "Everything your community needs, from one trusted partner.",
-    "subtitle": "Four core services designed for apartment communities, HOAs, and property managers across DFW.",
+    "subtitle": "Six core services designed for apartment communities, HOAs, and property managers across DFW.",
     "items": {
       "valetTrash": {
         "title": "Valet Trash",
@@ -68,6 +68,16 @@
         "title": "Power Wash",
         "short": "Pressure cleaning & restoration",
         "desc": "High-pressure cleaning for common areas, sidewalks, parking lots, and more. We remove dirt, mold, and stains to keep your property shining."
+      },
+      "propertyCleaner": {
+        "title": "Property Cleaner",
+        "short": "Common areas & curb appeal",
+        "desc": "Keep your property clean, welcoming, and professionally maintained. Our property cleaning services help maintain common areas, improve curb appeal, and create a cleaner environment for residents and guests."
+      },
+      "moveOut": {
+        "title": "Move-Out Cleaning",
+        "short": "Turnover & move-in ready",
+        "desc": "Thorough cleaning services that prepare units for their next residents. We help management teams streamline turnovers, maintain property standards, and ensure every unit is clean, fresh, and move-in ready."
       }
     },
     "learnMore": "Learn more"
@@ -382,6 +392,8 @@
         "valetRecycling": "Valet Recycling",
         "bulk": "Bulk Items",
         "powerWash": "Power Wash",
+        "propertyCleaner": "Property Cleaner",
+        "moveOut": "Move-Out Cleaning",
         "multiple": "Multiple Services",
         "other": "Other"
       },

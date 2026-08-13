@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 
-const SERVICE_KEYS = ['valetTrash', 'valetRecycling', 'bulk', 'powerWash', 'multiple', 'other'] as const;
+const SERVICE_KEYS = ['valetTrash', 'valetRecycling', 'bulk', 'powerWash', 'propertyCleaner', 'moveOut', 'multiple', 'other'] as const;
 const PROPERTY_KEYS = ['garden', 'midRise', 'highRise', 'hoa', 'mixed', 'other'] as const;
 const FREQ_KEYS = ['5nights', 'weekly', 'biweekly', 'monthly', 'onetime', 'unsure'] as const;
 
