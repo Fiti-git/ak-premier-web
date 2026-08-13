@@ -10,9 +10,9 @@ export default function Logo({
   size?: 'sm' | 'md' | 'lg';
 }) {
   const dims = {
-    sm: 'h-10 sm:h-11',
-    md: 'h-12 sm:h-14',
-    lg: 'h-20 sm:h-24'
+    sm: 'h-14 sm:h-16',
+    md: 'h-16 sm:h-20',
+    lg: 'h-24 sm:h-28'
   }[size];
 
   const src = variant === 'light' ? '/logo-white.png' : '/logo-transparent.png';
