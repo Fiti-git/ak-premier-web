@@ -132,7 +132,7 @@ export default function Header() {
             : 'bg-cream/60 backdrop-blur-sm border-b border-transparent'
         }`}
       >
-        <div className={`container-x flex items-center justify-between transition-all duration-300 ${scrolled ? 'h-24' : 'h-28'}`}>
+        <div className={`container-x flex items-center justify-between transition-all duration-300 ${scrolled ? 'h-28' : 'h-32'}`}>
           <Link href="/" className="shrink-0 rounded-lg" aria-label="A&K Premier Property Solutions — Home">
             <Logo size={scrolled ? 'sm' : 'md'} />
           </Link>
