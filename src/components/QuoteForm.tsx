@@ -14,8 +14,16 @@ export default function QuoteForm() {
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setStatus('submitting');
-    await new Promise((r) => setTimeout(r, 900));
-    setStatus('success');
+    try {
+      const res = await fetch('/api/quote', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(Object.fromEntries(new FormData(e.currentTarget))),
+      });
+      setStatus(res.ok ? 'success' : 'error');
+    } catch {
+      setStatus('error');
+    }
   };
 
   const fieldClass =
@@ -33,6 +41,7 @@ export default function QuoteForm() {
 
   return (
     <form onSubmit={onSubmit} className="card space-y-6">
+      <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
       <div className="grid sm:grid-cols-2 gap-5">
         <div>
           <label className={labelClass}>{t('name')} *</label>
