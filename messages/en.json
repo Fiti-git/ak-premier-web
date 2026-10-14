@@ -3,8 +3,8 @@
     "name": "A&K Premier Property Solutions",
     "short": "A&K Premier",
     "tagline": "Smart Solutions. Cleaner Communities.",
-    "phone": "(915) 238-0756",
-    "phoneRaw": "+19152380756",
+    "phone": "(469) 218-6126",
+    "phoneRaw": "+14692186126",
     "email": "info@akpremierpropertysolutions.com",
     "website": "www.akproperty-solutions.com",
     "location": "DFW, Texas"
@@ -23,7 +23,7 @@
     "title": "Smart Solutions. Cleaner Communities.",
     "subtitle": "A&K Premier Property Solutions LLC delivers reliable, professional, and high-quality services that keep your community clean, safe, and looking its best — for residents you're proud to serve.",
     "ctaPrimary": "Get a Free Proposal",
-    "ctaSecondary": "Call (915) 238-0756",
+    "ctaSecondary": "Call (469) 218-6126",
     "trustDots": ["Fully Insured", "On-Time, Every Time", "Bilingual Crews", "DFW-Based"]
   },
   "values": {
@@ -263,7 +263,7 @@
       },
       {
         "q": "What areas do you serve?",
-        "a": "We serve apartment communities and HOAs across the DFW metroplex — Dallas, Fort Worth, Arlington, Plano, Frisco, Irving, and surrounding areas. Not sure if we cover yours? Just call (915) 238-0756."
+        "a": "We serve apartment communities and HOAs across the DFW metroplex — Dallas, Fort Worth, Arlington, Plano, Frisco, Irving, and surrounding areas. Not sure if we cover yours? Just call (469) 218-6126."
       },
       {
         "q": "How quickly can service start?",
@@ -288,7 +288,7 @@
     "subtitle": "Contact us today for a customized proposal. Every community is different — your quote will be too.",
     "button": "Get Your Free Proposal",
     "or": "or call",
-    "callButton": "(915) 238-0756"
+    "callButton": "(469) 218-6126"
   },
   "newsletter": {
     "title": "Stay in the loop",
@@ -305,7 +305,7 @@
     "phone": "Phone",
     "email": "Email",
     "address": "Location",
-    "phoneValue": "(915) 238-0756",
+    "phoneValue": "(469) 218-6126",
     "emailValue": "info@akpremierpropertysolutions.com",
     "addressValue": "DFW, Texas",
     "rights": "All rights reserved.",
@@ -387,6 +387,8 @@
       "company": "Community / Company Name",
       "service": "Service Needed",
       "servicePlaceholder": "Select a service",
+      "propertyPlaceholder": "Select a property type",
+      "frequencyPlaceholder": "Select a frequency",
       "serviceOptions": {
         "valetTrash": "Valet Trash",
         "valetRecycling": "Valet Recycling",
@@ -421,7 +423,7 @@
       "submit": "Send Request",
       "submitting": "Sending…",
       "success": "Thanks! We've received your request and will send your custom proposal within 48 hours.",
-      "error": "Something went wrong. Please try again or call (915) 238-0756 directly."
+      "error": "Something went wrong. Please try again or call (469) 218-6126 directly."
     }
   }
 }

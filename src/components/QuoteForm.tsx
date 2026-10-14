@@ -74,7 +74,7 @@ export default function QuoteForm() {
         <div>
           <label className={labelClass}>{t('propertyType')}</label>
           <select name="propertyType" className={fieldClass} defaultValue="">
-            <option value="" disabled>{t('servicePlaceholder')}</option>
+            <option value="" disabled>{t('propertyPlaceholder')}</option>
             {PROPERTY_KEYS.map((k) => (
               <option key={k} value={k}>{t(`propertyOptions.${k}`)}</option>
             ))}
@@ -87,7 +87,7 @@ export default function QuoteForm() {
         <div>
           <label className={labelClass}>{t('frequency')}</label>
           <select name="frequency" className={fieldClass} defaultValue="">
-            <option value="" disabled>{t('servicePlaceholder')}</option>
+            <option value="" disabled>{t('frequencyPlaceholder')}</option>
             {FREQ_KEYS.map((k) => (
               <option key={k} value={k}>{t(`frequencyOptions.${k}`)}</option>
             ))}

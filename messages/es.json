@@ -3,8 +3,8 @@
     "name": "A&K Premier Property Solutions",
     "short": "A&K Premier",
     "tagline": "Soluciones Inteligentes. Comunidades Más Limpias.",
-    "phone": "(915) 238-0756",
-    "phoneRaw": "+19152380756",
+    "phone": "(469) 218-6126",
+    "phoneRaw": "+14692186126",
     "email": "info@akpremierpropertysolutions.com",
     "website": "www.akproperty-solutions.com",
     "location": "DFW, Texas"
@@ -23,7 +23,7 @@
     "title": "Soluciones Inteligentes. Comunidades Más Limpias.",
     "subtitle": "A&K Premier Property Solutions LLC brinda servicios confiables, profesionales y de alta calidad que mantienen tu comunidad limpia, segura y en las mejores condiciones — para residentes que te enorgulleces de atender.",
     "ctaPrimary": "Obtener Propuesta Gratis",
-    "ctaSecondary": "Llamar (915) 238-0756",
+    "ctaSecondary": "Llamar (469) 218-6126",
     "trustDots": ["Con Seguro", "Puntuales Siempre", "Equipos Bilingües", "Basados en DFW"]
   },
   "values": {
@@ -263,7 +263,7 @@
       },
       {
         "q": "¿En qué áreas trabajan?",
-        "a": "Atendemos comunidades de apartamentos y HOAs en toda la metrópolis DFW — Dallas, Fort Worth, Arlington, Plano, Frisco, Irving y áreas circundantes. ¿No estás seguro si cubrimos la tuya? Solo llama al (915) 238-0756."
+        "a": "Atendemos comunidades de apartamentos y HOAs en toda la metrópolis DFW — Dallas, Fort Worth, Arlington, Plano, Frisco, Irving y áreas circundantes. ¿No estás seguro si cubrimos la tuya? Solo llama al (469) 218-6126."
       },
       {
         "q": "¿Qué tan rápido puede comenzar el servicio?",
@@ -288,7 +288,7 @@
     "subtitle": "Contáctanos hoy para una propuesta personalizada. Cada comunidad es diferente — tu cotización también lo será.",
     "button": "Obtén Tu Propuesta Gratis",
     "or": "o llama",
-    "callButton": "(915) 238-0756"
+    "callButton": "(469) 218-6126"
   },
   "newsletter": {
     "title": "Mantente informado",
@@ -305,7 +305,7 @@
     "phone": "Teléfono",
     "email": "Correo",
     "address": "Ubicación",
-    "phoneValue": "(915) 238-0756",
+    "phoneValue": "(469) 218-6126",
     "emailValue": "info@akpremierpropertysolutions.com",
     "addressValue": "DFW, Texas",
     "rights": "Todos los derechos reservados.",
@@ -387,6 +387,8 @@
       "company": "Comunidad / Nombre de Empresa",
       "service": "Servicio Necesitado",
       "servicePlaceholder": "Selecciona un servicio",
+      "propertyPlaceholder": "Selecciona un tipo de propiedad",
+      "frequencyPlaceholder": "Selecciona una frecuencia",
       "serviceOptions": {
         "valetTrash": "Valet Trash",
         "valetRecycling": "Valet Reciclaje",
@@ -421,7 +423,7 @@
       "submit": "Enviar Solicitud",
       "submitting": "Enviando…",
       "success": "¡Gracias! Hemos recibido tu solicitud y enviaremos tu propuesta personalizada en 48 horas.",
-      "error": "Algo salió mal. Por favor intenta de nuevo o llama al (915) 238-0756 directamente."
+      "error": "Algo salió mal. Por favor intenta de nuevo o llama al (469) 218-6126 directamente."
     }
   }
 }
