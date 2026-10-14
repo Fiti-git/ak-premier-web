@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { appendFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import nodemailer from 'nodemailer';
+import en from '../../../../messages/en.json';
 
 // Quote requests are emailed via Resend when RESEND_API_KEY is set, otherwise over SMTP
 // (SMTP_HOST, SMTP_PORT, SMTP_SECURE=true, SMTP_USER, SMTP_PASS; defaults to localhost:25).
@@ -22,6 +23,13 @@ const LABELS: Record<(typeof FIELDS)[number], string> = {
   size: 'Doors / Units',
   frequency: 'Service Frequency',
   message: 'Additional Details',
+};
+
+// Show option labels ("Valet Trash") instead of form keys ("valetTrash") in the email.
+const OPTION_LABELS: Partial<Record<(typeof FIELDS)[number], Record<string, string>>> = {
+  service: en.quote_page.form.serviceOptions,
+  propertyType: en.quote_page.form.propertyOptions,
+  frequency: en.quote_page.form.frequencyOptions,
 };
 
 const LOG_FILE = path.join(process.cwd(), 'data', 'quotes.jsonl');
@@ -69,19 +77,20 @@ export async function POST(req: Request) {
   }
 
   const filled = FIELDS.filter((k) => data[k]);
+  const display = (k: (typeof FIELDS)[number]) => OPTION_LABELS[k]?.[data[k]] ?? data[k];
   const rows = filled
     .map(
       (k) =>
         `<tr><td style="padding:6px 12px;font-weight:600;vertical-align:top">${LABELS[k]}</td>` +
-        `<td style="padding:6px 12px;white-space:pre-wrap">${escapeHtml(data[k])}</td></tr>`
+        `<td style="padding:6px 12px;white-space:pre-wrap">${escapeHtml(display(k))}</td></tr>`
     )
     .join('');
 
   const from = process.env.QUOTE_FROM_EMAIL || 'A&K Website <noreply@akproperty-solutions.com>';
   const to = process.env.QUOTE_TO_EMAIL || 'service@akproperty-solutions.com';
-  const subject = `New proposal request – ${data.company || data.name}`;
+  const subject = `New proposal request - ${data.company || data.name}`;
   const html = `<h2>New proposal request</h2><table style="border-collapse:collapse;font-family:sans-serif">${rows}</table>`;
-  const text = filled.map((k) => `${LABELS[k]}: ${data[k]}`).join('\n');
+  const text = filled.map((k) => `${LABELS[k]}: ${display(k)}`).join('\n');
 
   try {
     if (process.env.RESEND_API_KEY) {
