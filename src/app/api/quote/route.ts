@@ -3,9 +3,8 @@ import { appendFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 import nodemailer from 'nodemailer';
 
-// Quote requests are emailed over SMTP. Defaults target a local Postfix on the server
-// (localhost:25, no auth). To relay through a real mailbox instead, set in .env.local:
-//   SMTP_HOST, SMTP_PORT, SMTP_SECURE=true, SMTP_USER, SMTP_PASS
+// Quote requests are emailed via Resend when RESEND_API_KEY is set, otherwise over SMTP
+// (SMTP_HOST, SMTP_PORT, SMTP_SECURE=true, SMTP_USER, SMTP_PASS; defaults to localhost:25).
 // Optional:
 //   QUOTE_TO_EMAIL   – inbox that receives requests (default service@akproperty-solutions.com)
 //   QUOTE_FROM_EMAIL – sender (default "A&K Website <noreply@akproperty-solutions.com>")
@@ -78,15 +77,23 @@ export async function POST(req: Request) {
     )
     .join('');
 
+  const from = process.env.QUOTE_FROM_EMAIL || 'A&K Website <noreply@akproperty-solutions.com>';
+  const to = process.env.QUOTE_TO_EMAIL || 'service@akproperty-solutions.com';
+  const subject = `New proposal request – ${data.company || data.name}`;
+  const html = `<h2>New proposal request</h2><table style="border-collapse:collapse;font-family:sans-serif">${rows}</table>`;
+  const text = filled.map((k) => `${LABELS[k]}: ${data[k]}`).join('\n');
+
   try {
-    await transporter.sendMail({
-      from: process.env.QUOTE_FROM_EMAIL || 'A&K Website <noreply@akproperty-solutions.com>',
-      to: process.env.QUOTE_TO_EMAIL || 'service@akproperty-solutions.com',
-      replyTo: data.email,
-      subject: `New proposal request – ${data.company || data.name}`,
-      html: `<h2>New proposal request</h2><table style="border-collapse:collapse;font-family:sans-serif">${rows}</table>`,
-      text: filled.map((k) => `${LABELS[k]}: ${data[k]}`).join('\n'),
-    });
+    if (process.env.RESEND_API_KEY) {
+      const res = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({ from, to: [to], reply_to: data.email, subject, html, text }),
+      });
+      if (!res.ok) throw new Error(`Resend ${res.status}: ${await res.text()}`);
+    } else {
+      await transporter.sendMail({ from, to, replyTo: data.email, subject, html, text });
+    }
   } catch (err) {
     console.error('[quote] email failed', err);
     // Still saved in the backup log, so the lead isn't lost.
